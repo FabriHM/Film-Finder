@@ -71,6 +71,10 @@ En el desarrollo de sistemas de recomendación de películas, tomamos en cuenta 
 - Para alcanzar este objetivo, es esencial contar con datos detallados sobre las preferencias individuales de cada usuario, así como sobre las películas que ya han disfrutado previamente. La implementación de estos sistemas se lleva a cabo empleando el lenguaje de programación Python, una herramienta excepcionalmente eficaz para analizar datos y desarrollar algoritmos de recomendaciones personalizadas extremadamente precisos y eficientes. En última instancia, esta estrategia no sólo resulta beneficiosa para los usuarios al brindarles contenido relevante y atractivo, sino que también conduce al éxito continuado de la plataforma de streaming.
 - # <a name="_heading=h.1fob9te">
 
+<p align="center">
+  <img src="https://i.postimg.cc/T2Sw8PHH/Whats-App-Image-2023-09-28-at-1-24-30-AM.jpg" alt="UPC logo">
+</p>
+
 - # <a name="_heading=h.r3agy7j393jx"></a>**5. Conclusiones:**
 - Utilizamos la biblioteca Tkinter para desarrollar una interfaz de usuario interactiva que permite a los usuarios interactuar de manera fácil y amigable con nuestro sistema de recomendaciones de películas.
 
