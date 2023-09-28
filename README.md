@@ -7,46 +7,47 @@
   <h2><strong>Film Finder</strong></h2>
 </div>
 
-**Profesor:**
+## **Profesor:**
 
-Luis Martin Canaval Sanchez
+Luis Martín Canaval Sánchez
 
-**Miembros del equipo:**
+## **Miembros del equipo:**
 
 - Fabricio Raúl Huillca Mateos - u202118067
 - Bruno Leonardo Gonzales Arotinco -u201820037
 - Anaely Burga Loarte - u202118264
 
 <div align="center"><p>Ingeniería de Sistemas y Computación | Ingeniería de Software</p></div>
+
 <div align="center">
  <p>Ciclo 2023-02</p>
 </div>
  
 
-Índice
+## Índice
 
-1. [Enunciado del Proyecto](#_heading=h.i8pqd6cqtj61)
+### 1. [Enunciado del Proyecto](#_heading=h.i8pqd6cqtj61)
 
-2. [Logro del Curso](#_heading=h.kx7zxuvhw6rx)
+### 2. [Logro del Curso](#_heading=h.kx7zxuvhw6rx)
 
-3. [Descripción del problema](#_heading=h.ggl6no8xx1kg)
+### 3. [Descripción del problema](#_heading=h.ggl6no8xx1kg)
 
-4. [Descripción del conjunto de datos (dataset)](#_heading=h.1fob9te)
+### 4. [Descripción del conjunto de datos (dataset)](#_heading=h.1fob9te)
 
-5. [Propuesta](#_heading=h.3znysh7)
+### 5. [Propuesta](#_heading=h.5wlqmxs06ajq)
 
-6. [Conclusiones](#_heading=h.r3agy7j393jx)
+### 6. [Conclusiones](#_heading=h.r3agy7j393jx)
 
-7. [Referencias Bibliográficas](#_heading=h.kavcqy7ojzs)
+### 7. [Referencias Bibliográficas](#_heading=h.kavcqy7ojzs)
 
 
 # <a name="_heading=h.i8pqd6cqtj61"></a>**1. Enunciado del Proyecto**
-El proyecto consiste en implementar un algoritmo de búsqueda usando nodos con los conceptos utilizados durante las sesiones de clase para poder desarrollar nuestro proyecto.
+El Trabajo Parcial/Final se plantea como una pieza central en el curso CC184 - COMPLEJIDAD ALGORÍTMICA proporciona una base sólida y exhaustiva para la ejecución, motivando a los estudiantes a desplegar su conocimiento de manera creativa, con el propósito de poner en práctica de manera concreta los principios y técnicas aprendidos a lo largo del ciclo de estudios. En esta dinámica, se encomienda a los estudiantes la tarea de identificar y resolver un problema genuino del mundo real que exige un profundo dominio de la complejidad algorítmica y una habilidad destacada en la aplicación de grafos como una herramienta esencial. La selección del problema es completamente flexible, permitiendo a los grupos optar por un desafío que se ajuste a sus intereses y aptitudes.
 # <a name="_heading=h.kx7zxuvhw6rx"></a>**2. Logro del curso**
 
-### Student outcome
-- # <a name="_heading=h.g877qauj3y1a"></a>Competencias Generales: Razonamiento Cuantitativo 
-- # <a name="_heading=h.b9ut8hx4l73w"></a>Nivel de logro: 2
+## Student outcome
+## <a name="_heading=h.g877qauj3y1a"></a>Competencias Generales: Razonamiento Cuantitativo 
+## <a name="_heading=h.b9ut8hx4l73w"></a>Nivel de logro: 2
 
 
 |Criterio específico|Acciones realizadas|Conclusiones|
@@ -91,11 +92,14 @@ Se muestra el grafo según los datos recolectados de un dataset:
 # <a name="_heading=h.5wlqmxs06ajq"></a>**5. Propuesta:**
 ### Objetivo:
 
-- La propuesta de solución del problema que presentamos es lo siguiente:
-- Generar un grafo usando una matriz de adyacencia en memoria, para lo cual se tendrá en cuenta que cada nodo representa una película y así poder indicar que cada película ‘X’ está relacionado con cada película ‘Y’.
-- Se deberá medir la relación que hay entre cada película y la cantidad de coincidencias entre sus datos.
-- Se le presentará al usuario una interfaz donde el pueda ingresar el nombre de la película que desee ver y un botón para realizar la búsqueda. Al darle click a dicho botón, aparecerá para el usuario toda la información de la película y una cantidad de películas con posibles relaciones a la búsqueda.
-- Cuando el usuario “**visualice**” películas de su agrado, estas se “**acercarán**” en el grafo guardado en txt, disminuyendo a los pesos un 20% que unen a dichas películas. Por ejemplo, si el usuario mira las películas A, B y C, se disminuye un 20% el peso entre A y B, A y C, B y C en el grafo
+La propuesta de solución del problema que presentamos es lo siguiente:
+
+- Construcción del Grafo: En la primera etapa de nuestra solución, nos enfocamos en la construcción del grafo que servirá como la base de nuestro sistema de recomendación. Para lograrlo, utilizamos una matriz de adyacencia en memoria donde cada nodo representa una película, identificada de manera única por un número. Para establecer relaciones entre las películas, asignamos valores numéricos que varían desde "0" hasta infinito, indicando ausencia de relación. Para evaluar el grado de relación, consideramos varios factores, como la duración, el director, el ID y los géneros de las películas, a los cuales asignamos los puntajes correspondientes. El peso en la matriz de adyacencia se calcula mediante una fórmula que se basa en el grado de relación, lo que nos proporciona un grafo con información relevante sobre la afinidad entre películas.
+
+- Interfaz de Usuario Amigable: En la segunda fase de nuestra solución, diseñamos una interfaz de usuario amigable y accesible. Esta interfaz permite a los usuarios ingresar el nombre de la película que desean ver y, al hacer clic en el botón de búsqueda, obtienen información detallada sobre esa película. Además, se presenta una lista de las películas más relacionadas en el grafo, lo que facilita a los usuarios encontrar opciones afines a sus preferencias. Esta interfaz no solo enriquece la experiencia del usuario, sino que también facilita la exploración y selección de películas de manera efectiva.
+  
+- Adaptación Continua del Grafo: La tercera etapa de nuestra solución se centra en la adaptación continua del grafo. Cuando los usuarios disfrutan de películas que les agradan, implementamos un mecanismo que "acerca" estas películas en el grafo almacenado en un archivo de texto. Para lograrlo, reducimos el peso de las conexiones entre las películas seleccionadas. Por ejemplo, si un usuario ve las películas A, B y C, disminuimos el peso de las conexiones entre A y B, A y C, y B y C en el grafo. Este enfoque dinámico permite a los usuarios encontrar películas afines con mayor facilidad y mejora constantemente las recomendaciones a medida que los usuarios exploran y disfrutan de películas en la plataforma.
+
 
 ### Técnicas:
 
@@ -108,6 +112,7 @@ Las técnicas que vamos a  implementar son las siguientes:
 - Optimización Mediante Minimum Spanning Tree (MST): La incorporación de MST en nuestro programa permitió identificar relaciones clave entre películas y usuarios, lo que ayudó a priorizar las recomendaciones al enfocarse en las conexiones más relevantes dentro de la red de preferencias. Esto resultó en recomendaciones más significativas para los usuarios.
 
 - Mejora de la Eficiencia con Programación Dinámica: La programación dinámica se utilizará para optimizar la eficiencia en la generación de recomendaciones. Al mejorar procesos y cálculos, logramos acelerar el proceso de selección de películas recomendadas, beneficiando tanto a los usuarios como a la plataforma de streaming en sí.
+
 
 ### Metodología:
 
