@@ -26,17 +26,19 @@ Luis Martin Canaval Sanchez
 Índice
 
 1. [Enunciado del Proyecto](#_heading=h.gjdgxs)
-1. Logro del Curso
-1. [Descripción del problema](#_heading=h.gjdgxs)[.](#_heading=h.gjdgxs)[	](#_heading=h.gjdgxs)
 
-4[.Descripción del conjunto de datos (dataset)](#_heading=h.1fob9te)[.](#_heading=h.1fob9te)[	](#_heading=h.1fob9te)
+2. [Logro del Curso](#_heading=h.gjdgxs)
 
-5 [.Propuesta](#_heading=h.3znysh7)[.](#_heading=h.3znysh7)[	](#_heading=h.3znysh7)
+3. [Descripción del problema](#_heading=h.gjdgxs)
+
+4. [Descripción del conjunto de datos (dataset)](#_heading=h.1fob9te)
+
+5. [Propuesta](#_heading=h.3znysh7)
 
 
-1. # <a name="_heading=h.i8pqd6cqtj61"></a>   **Enunciado del Proyecto**
+# <a name="_heading=h.i8pqd6cqtj61"></a>**1. Enunciado del Proyecto**
 El proyecto consiste en implementar un algoritmo de búsqueda usando nodos con los conceptos utilizados durante las sesiones de clase para poder desarrollar nuestro proyecto.
-1. # <a name="_heading=h.kx7zxuvhw6rx"></a>**Logro del curso**
+# <a name="_heading=h.kx7zxuvhw6rx"></a>**2. Logro del curso**
 
 Student outcome
 - # <a name="_heading=h.g877qauj3y1a"></a>Competencias Generales: Razonamiento Cuantitativo 
@@ -56,13 +58,13 @@ Student outcome
 En el desarrollo de sistemas de recomendación de películas, tomamos en cuenta su responsabilidad ética. Esto implica proteger la privacidad de los usuarios, ser transparentes en cuanto a cómo funcionan los algoritmos, abordar cualquier sesgo presente, proporcionar recomendaciones de alta calidad y mantener la integridad profesional en todo momento. Estas consideraciones éticas son esenciales para asegurar que los sistemas de recomendación sean justos y beneficien a todos los usuarios.
 
 -
-1. # <a name="_heading=h.ggl6no8xx1kg"></a><a name="_heading=h.gjdgxs"></a>**Descripción del problema:**
+# <a name="_heading=h.ggl6no8xx1kg"></a><a name="_heading=h.gjdgxs"></a>**3. Descripción del problema:**
 - **Problemática:** La cuestión central que hemos enfrentado se refiere a cómo abordar el reto de ofrecer a los usuarios de servicios de streaming, como Netflix o HBO Max, recomendaciones de películas que se ajusten de manera precisa a sus preferencias individuales. Nos hemos encontrado con el desafío de mantener a los usuarios comprometidos y satisfechos en medio de una amplia variedad de opciones, asegurando que las recomendaciones sean pertinentes y personalizadas para cada uno. Nuestro programa se ha dedicado a resolver este problema mediante la aplicación de algoritmos avanzados y técnicas de análisis de datos, lo que nos ha permitido proporcionar recomendaciones que no solo enriquecen la experiencia del usuario, sino que también prolongan su compromiso con la plataforma de streaming.
 
 - Dentro del contexto de las plataformas de streaming, como Netflix, Amazon Prime Video, Disney +, Apple TV y HBO Max, la implementación de sistemas de recomendación juega un papel esencial. Estos sistemas, respaldados por avanzados algoritmos de búsqueda, desempeñan un papel fundamental al proporcionar a los usuarios recomendaciones altamente personalizadas. Este enfoque no solo enriquece la experiencia del usuario, sino que también prolonga su compromiso con la plataforma, manteniéndolos involucrados durante períodos más extensos.
 
 - Para alcanzar este objetivo, es esencial contar con datos detallados sobre las preferencias individuales de cada usuario, así como sobre las películas que ya han disfrutado previamente. La implementación de estos sistemas se lleva a cabo empleando el lenguaje de programación Python, una herramienta excepcionalmente eficaz para analizar datos y desarrollar algoritmos de recomendaciones personalizadas extremadamente precisos y eficientes. En última instancia, esta estrategia no sólo resulta beneficiosa para los usuarios al brindarles contenido relevante y atractivo, sino que también conduce al éxito continuado de la plataforma de streaming.
-- # <a name="_heading=h.1fob9te"></a>**4.  Descripción del conjunto de datos (dataset):**
+# <a name="_heading=h.1fob9te"></a>**4.  Descripción del conjunto de datos (dataset):**
 El data set se compone por 1500 entradas tomadas de imdb con información de películas. 
 
 Se tomó en cuenta para la realización de las tablas, las siguientes características:
@@ -77,10 +79,13 @@ Se tomó en cuenta para la realización de las tablas, las siguientes caracterí
 |actoresPelicula|Actores de la película (separados por comas)|string|
 |generoPelicula|Géneros de la película (separados por comas)|<p>string</p><p></p>|
 
-- Mostrar mediante un grafo completo y/o subgrafos los datos recolectados.
+Se muestra el grafo según los datos recolectados de un dataset:
+<p align="center">
+  <img src="https://i.postimg.cc/T2Sw8PHH/Whats-App-Image-2023-09-28-at-1-24-30-AM.jpg" alt="UPC logo">
+</p>
 
 ![](Aspose.Words.a9942042-5445-4390-9fec-15ebdc98e3e5.002.png)
-- # <a name="_heading=h.5wlqmxs06ajq"></a>**5. Propuesta:**
+# <a name="_heading=h.5wlqmxs06ajq"></a>**5. Propuesta:**
 - Objetivo:
 - La propuesta de solución del problema que presentamos es lo siguiente:
 - Generar un grafo usando una matriz de adyacencia en memoria, para lo cual se tendrá en cuenta que cada nodo representa una película y así poder indicar que cada película ‘X’ está relacionado con cada película ‘Y’.
@@ -107,7 +112,7 @@ Nuestra metodología en el desarrollo del programa de recomendaciones de pelícu
 - Lenguaje de programación:
 
 - Para el desarrollo de nuestra aplicación en Python, haremos uso de una combinación de valiosas bibliotecas y recursos. Tkinter será esencial para crear una interfaz gráfica de usuario (GUI) interactiva, mientras que Matplotlib facilitará la representación visual efectiva de datos mediante gráficos y gráficos. NetworkX será una herramienta clave para analizar y manipular redes, lo que nos permitirá modelar y entender conexiones complejas. NumPy se utilizará para operaciones matriciales eficientes, y Pandas simplificará el manejo y procesamiento de datos en forma de marcos de datos. En conjunto, estas bibliotecas y recursos nos brindarán las capacidades necesarias para crear una aplicación versátil y poderosa.
-- # <a name="_heading=h.r3agy7j393jx"></a>**6. Conclusiones:**
+# <a name="_heading=h.r3agy7j393jx"></a>**6. Conclusiones:**
 - Utilizamos la biblioteca Tkinter para desarrollar una interfaz de usuario interactiva que permite a los usuarios interactuar de manera fácil y amigable con nuestro sistema de recomendaciones de películas.
 
 - Para poder representar los datos, utilizaremos a los grafos como medio de conexión entre sus nodos y aristas.
@@ -116,7 +121,7 @@ Nuestra metodología en el desarrollo del programa de recomendaciones de pelícu
 
 - El procesamiento eficiente de información y la gestión de datos tabulares, estas capacidades permiten ofrecer recomendaciones precisas y personalizadas a los usuarios, mejorando así la experiencia en nuestra plataforma de recomendaciones de películas.
 
-- # <a name="_heading=h.kavcqy7ojzs"></a>**7.    Referencias bibliográficas:**
+# <a name="_heading=h.kavcqy7ojzs"></a>**7.    Referencias bibliográficas:**
 *Cremonesi, P., Koren, Y., & Turrin, R. (2010). Performance of recommender algorithms on top-n recommendation tasks. ACM Transactions on Intelligent Systems and Technology, 1(3), 1-20. Recuperado de:[* ](https://doi.org/10.1145/1864708.1864721)<https://doi.org/10.1145/1864708.1864721>*
 
 *Cañibano, J. (2022).* *Creación de grafos de conocimiento a partir de código de software científico en distintos lenguajes de programación. Recuperado de:[ ](https://oa.upm.es/72746/)[https://oa.upm.es/72746/*](https://oa.upm.es/72746/)*
