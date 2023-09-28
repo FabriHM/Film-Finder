@@ -25,7 +25,7 @@ Luis Martin Canaval Sanchez
 - Bruno Leonardo Gonzales Arotinco -u201820037
 - Anaely Burga Loarte - u202118264
 
-Ingeniería de Sistemas y Computación | Ingeniería de Software
+<div align="center"><p>Ingeniería de Sistemas y Computación | Ingeniería de Software</p></div>
 
 
 <div align="center">
