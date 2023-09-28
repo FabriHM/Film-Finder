@@ -1,37 +1,34 @@
-# **CC184-COMPLEJIDAD ALGORITMICA**
+**UNIVERSIDAD PERUANA** 
 
-## **TP - Universidad Peruana de Ciencias Aplicadas**
+**DE CIENCIAS APLICADAS**
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="UPC logo">
-</p>
+![](Aspose.Words.a9942042-5445-4390-9fec-15ebdc98e3e5.001.png)
 
+Complejidad Algorítmica (DEF)
 
+CC 184-WX 73
 
-<div align="center">
-  <h2><strong>Film Finder</strong></h2>
-</div>
+Título
 
+Film Finder
 
-
-**Profesor:**
-
-Luis Martin Canaval Sanchez
+Profesor: Luis Martín Canaval Sanchez
 
 
-**Miembros del equipo:**
+Integrantes:
 
-- Fabricio Raúl Huillca Mateos - u202118067
-- Bruno Leonardo Gonzales Arotinco -u201820037
-- Anaely Burga Loarte - u202118264
+Gonzales Arotinco Bruno Leonardo - u201820037
 
-<div align="center"><p>Ingeniería de Sistemas y Computación | Ingeniería de Software</p></div>
+Burga Loarte Anaely - u202118264
+
+Fabricio Raúl Huillca Mateos - u202118067
 
 
-<div align="center">
- <p>Ciclo 2023-02</p>
-</div>
- 
+
+
+
+2023-2
+
 Índice
 
 1. [Enunciado del Proyecto](#_heading=h.gjdgxs)
