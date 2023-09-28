@@ -25,15 +25,19 @@ Luis Martin Canaval Sanchez
 
 Índice
 
-1. [Enunciado del Proyecto](#_heading=h.gjdgxs)
+1. [Enunciado del Proyecto](#_heading=h.i8pqd6cqtj61)
 
-2. [Logro del Curso](#_heading=h.gjdgxs)
+2. [Logro del Curso](#_heading=h.kx7zxuvhw6rx)
 
-3. [Descripción del problema](#_heading=h.gjdgxs)
+3. [Descripción del problema](#_heading=h.ggl6no8xx1kg)
 
 4. [Descripción del conjunto de datos (dataset)](#_heading=h.1fob9te)
 
 5. [Propuesta](#_heading=h.3znysh7)
+
+6. [Conclusiones](#_heading=h.r3agy7j393jx)
+
+7. [Referencias Bibliográficas](#_heading=h.kavcqy7ojzs)
 
 
 # <a name="_heading=h.i8pqd6cqtj61"></a>**1. Enunciado del Proyecto**
@@ -56,7 +60,7 @@ El proyecto consiste en implementar un algoritmo de búsqueda usando nodos con l
 
 En el desarrollo de sistemas de recomendación de películas, tomamos en cuenta su responsabilidad ética. Esto implica proteger la privacidad de los usuarios, ser transparentes en cuanto a cómo funcionan los algoritmos, abordar cualquier sesgo presente, proporcionar recomendaciones de alta calidad y mantener la integridad profesional en todo momento. Estas consideraciones éticas son esenciales para asegurar que los sistemas de recomendación sean justos y beneficien a todos los usuarios.
 
-# <a name="_heading=h.ggl6no8xx1kg"></a><a name="_heading=h.gjdgxs"></a>3. Descripción del problema:
+# <a name="_heading=h.ggl6no8xx1kg"></a>3. Descripción del problema:
 **Problemática:** 
 La cuestión central que hemos enfrentado se refiere a cómo abordar el reto de ofrecer a los usuarios de servicios de streaming, como Netflix o HBO Max, recomendaciones de películas que se ajusten de manera precisa a sus preferencias individuales. Nos hemos encontrado con el desafío de mantener a los usuarios comprometidos y satisfechos en medio de una amplia variedad de opciones, asegurando que las recomendaciones sean pertinentes y personalizadas para cada uno. Nuestro programa se ha dedicado a resolver este problema mediante la aplicación de algoritmos avanzados y técnicas de análisis de datos, lo que nos ha permitido proporcionar recomendaciones que no solo enriquecen la experiencia del usuario, sino que también prolongan su compromiso con la plataforma de streaming.
 
