@@ -70,3 +70,18 @@ En el desarrollo de sistemas de recomendación de películas, tomamos en cuenta 
 
 - Para alcanzar este objetivo, es esencial contar con datos detallados sobre las preferencias individuales de cada usuario, así como sobre las películas que ya han disfrutado previamente. La implementación de estos sistemas se lleva a cabo empleando el lenguaje de programación Python, una herramienta excepcionalmente eficaz para analizar datos y desarrollar algoritmos de recomendaciones personalizadas extremadamente precisos y eficientes. En última instancia, esta estrategia no sólo resulta beneficiosa para los usuarios al brindarles contenido relevante y atractivo, sino que también conduce al éxito continuado de la plataforma de streaming.
 - # <a name="_heading=h.1fob9te">
+
+- # <a name="_heading=h.r3agy7j393jx"></a>**5. Conclusiones:**
+- Utilizamos la biblioteca Tkinter para desarrollar una interfaz de usuario interactiva que permite a los usuarios interactuar de manera fácil y amigable con nuestro sistema de recomendaciones de películas.
+
+- Para poder representar los datos, utilizaremos a los grafos como medio de conexión entre sus nodos y aristas.
+
+- Utilizamos Matplotlib para visualizar gráficamente datos sobre las preferencias de los usuarios y las películas recomendadas, facilitando la interpretación de información compleja y fomentando la toma de decisiones basada en datos.
+
+- El procesamiento eficiente de información y la gestión de datos tabulares, estas capacidades permiten ofrecer recomendaciones precisas y personalizadas a los usuarios, mejorando así la experiencia en nuestra plataforma de recomendaciones de películas.
+
+- # <a name="_heading=h.kavcqy7ojzs"></a>**6.    Referencias bibliográficas:**
+*Cremonesi, P., Koren, Y., & Turrin, R. (2010). Performance of recommender algorithms on top-n recommendation tasks. ACM Transactions on Intelligent Systems and Technology, 1(3), 1-20. Recuperado de:[* ](https://doi.org/10.1145/1864708.1864721)<https://doi.org/10.1145/1864708.1864721>*
+
+*Cañibano, J. (2022).* *Creación de grafos de conocimiento a partir de código de software científico en distintos lenguajes de programación. Recuperado de:[ ](https://oa.upm.es/72746/)[https://oa.upm.es/72746/*](https://oa.upm.es/72746/)*
+
