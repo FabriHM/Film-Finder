@@ -170,8 +170,8 @@ Nuestra metodología en el desarrollo del programa de recomendaciones de pelícu
 
 *Cañibano, J. (2022).* *Creación de grafos de conocimiento a partir de código de software científico en distintos lenguajes de programación. Recuperado de:[ ](https://oa.upm.es/72746/)[https://oa.upm.es/72746/*](https://oa.upm.es/72746/)*
 
-*Cremonesi, P., Koren, Y., & Turrin, R. (2010). Performance of recommender algorithms on top-n recommendation tasks. ACM Transactions on Intelligent Systems and Technology, 1(3), 1-20. Recuperado de:[* ](https://doi.org/10.1145/1864708.1864721)<https://doi.org/10.1145/1864708.1864721>*
+*Cremonesi, P., Koren, Y., & Turrin, R. (2010). Performance of recommender algorithms on top-n recommendation tasks. ACM Transactions on Intelligent Systems and Technology, 1(3), 1-20. Recuperado de:[ ](https://doi.org/10.1145/1864708.1864721)<https://doi.org/10.1145/1864708.1864721>*
 
-*Polo, J. D. (2023). Este es el gran problema que están teniendo las plataformas de ‘streaming’ por el exceso de contenidos. Muy Interesante. Recuperado de: [](https://www.muyinteresante.es/tecnologia/17472.html)*
+*Polo, J. D. (2023). Este es el gran problema que están teniendo las plataformas de ‘streaming’ por el exceso de contenidos. Muy Interesante. Recuperado de: [https://www.muyinteresante.es/tecnologia/17472.html](https://www.muyinteresante.es/tecnologia/17472.html)*
 
-*IMDB Movies Dataset. (2021, 1 febrero). Kaggle. [](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows)*
+*IMDB Movies Dataset. (2021, 1 febrero). Kaggle. Recuperado de: [https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows)*
