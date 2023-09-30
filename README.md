@@ -110,11 +110,11 @@ Se tomó en cuenta para la realización de las tablas, las siguientes caracterí
 |Dato|Descripción|Tipo de dato|
 | :-: | :-: | :-: |
 |id|Es el identificador de cada película|int|
-|titulo|Título que identifica a la pélicula|string|
-|duracion|El tiempo que dura la película expresado en minutos|int|
+|title|Título que identifica a la pélicula|string|
+|duration|El tiempo que dura la película expresado en minutos|int|
 |director|Director de la pélicula|string|
-|actores|Actores de la película (separados por comas)|string|
-|genero|Géneros de la película (separados por comas)|string|
+|actors|Actores de la película (separados por comas)|string|
+|genres|Géneros de la película (separados por comas)|string|
 |year|Año de la película|int|
 <p></p><p></p>
 
@@ -152,7 +152,7 @@ Las técnicas que pensamos implementar son las siguientes:
 
 ### Metodología:
 
-Nuestra metodología en el desarrollo del programa de recomendaciones de películas en Python se basa en un enfoque colaborativo y de iteración continua. Comenzamos recolectando y procesando datos de preferencias de usuarios y detalles de películas mediante técnicas. En la fase de diseño, modelamos las relaciones en una red de preferencias usando análisis de grafos y aplicamos algoritmos de aprendizaje automático para mejorar las recomendaciones. La implementación se realiza en Python, con bibliotecas junto con una interfaz de usuario interactiva en Tkinter. Evaluamos y ajustamos constantemente el sistema en función de métricas y retroalimentación de usuarios, manteniendo un diálogo abierto para refinamientos continuos. Esta metodología nos permite adaptarnos a las cambiantes preferencias de los usuarios y mejorar constantemente la experiencia de recomendación de películas.
+- Nuestra metodología en el desarrollo del programa de recomendaciones de películas en Python se basa en un enfoque colaborativo y de iteración continua. Comenzamos recolectando y procesando datos de preferencias de usuarios y detalles de películas mediante técnicas. En la fase de diseño, modelamos las relaciones en una red de preferencias usando análisis de grafos y aplicamos algoritmos de aprendizaje automático para mejorar las recomendaciones. La implementación se realiza en Python, con bibliotecas junto con una interfaz de usuario interactiva en Tkinter. Evaluamos y ajustamos constantemente el sistema en función de métricas y retroalimentación de usuarios, manteniendo un diálogo abierto para refinamientos continuos. Esta metodología nos permite adaptarnos a las cambiantes preferencias de los usuarios y mejorar constantemente la experiencia de recomendación de películas.
 
 ### Lenguaje de programación:
 
