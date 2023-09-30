@@ -63,25 +63,60 @@ En el desarrollo de sistemas de recomendación de películas, tomamos en cuenta 
 
 # <a name="_heading=h.ggl6no8xx1kg"></a>3. Descripción del problema:
 **Problemática:** 
-La cuestión central que hemos enfrentado se refiere a cómo abordar el reto de ofrecer a los usuarios de servicios de streaming, como Netflix o HBO Max, recomendaciones de películas que se ajusten de manera precisa a sus preferencias individuales. Nos hemos encontrado con el desafío de mantener a los usuarios comprometidos y satisfechos en medio de una amplia variedad de opciones, asegurando que las recomendaciones sean pertinentes y personalizadas para cada uno. Nuestro programa se ha dedicado a resolver este problema mediante la aplicación de algoritmos avanzados y técnicas de análisis de datos, lo que nos ha permitido proporcionar recomendaciones que no solo enriquecen la experiencia del usuario, sino que también prolongan su compromiso con la plataforma de streaming.
+Problemática: La cuestión central que hemos enfrentado se refiere a cómo abordar el reto de ofrecer a los usuarios de servicios de streaming, como Netflix o HBO Max, recomendaciones de películas que se ajusten de manera precisa a sus preferencias individuales. Nos hemos encontrado con el desafío de mantener a los usuarios comprometidos y satisfechos en medio de una amplia variedad de opciones, asegurando que las recomendaciones sean pertinentes y personalizadas para cada uno. Nuestro programa se ha dedicado a resolver este problema mediante la aplicación de algoritmos avanzados y técnicas de análisis de datos, lo que nos ha permitido proporcionar recomendaciones que no solo enriquecen la experiencia del usuario, sino que también prolongan su compromiso con la plataforma de streaming. Por otro lado, la abrumadora cantidad de contenido ofrecido por las múltiples plataformas disponibles actualmente ha llevado a una audiencia cada vez más dividida. Muchos consumidores se sienten abrumados e incluso frustrados al no saber qué ver en medio de esta abundancia de opciones. Esta saturación de contenido ha aumentado la necesidad de proporcionar recomendaciones altamente personalizadas que ayuden a los usuarios a navegar eficazmente por esta vasta selección de programas y películas (Polo, 2023).
 
-- Dentro del contexto de las plataformas de streaming, como Netflix, Amazon Prime Video, Disney +, Apple TV y HBO Max, la implementación de sistemas de recomendación juega un papel esencial. Estos sistemas, respaldados por avanzados algoritmos de búsqueda, desempeñan un papel fundamental al proporcionar a los usuarios recomendaciones altamente personalizadas. Este enfoque no solo enriquece la experiencia del usuario, sino que también prolonga su compromiso con la plataforma, manteniéndolos involucrados durante períodos más extensos.
 
+**Contexto:**
+Contexto: Dentro del contexto de las plataformas de streaming, como Netflix, Amazon Prime Video, Disney +, Apple TV y HBO Max, la implementación de sistemas de recomendación juega un papel esencial. Estos sistemas, respaldados por avanzados algoritmos de búsqueda, desempeñan un papel fundamental al proporcionar a los usuarios recomendaciones altamente personalizadas. Este enfoque no solo enriquece la experiencia del usuario, sino que también prolonga su compromiso con la plataforma, manteniéndolos involucrados durante períodos más extensos.
+
+**Objetivos:**
 - Para alcanzar este objetivo, es esencial contar con datos detallados sobre las preferencias individuales de cada usuario, así como sobre las películas que ya han disfrutado previamente. La implementación de estos sistemas se lleva a cabo empleando el lenguaje de programación Python, una herramienta excepcionalmente eficaz para analizar datos y desarrollar algoritmos de recomendaciones personalizadas extremadamente precisos y eficientes. En última instancia, esta estrategia no sólo resulta beneficiosa para los usuarios al brindarles contenido relevante y atractivo, sino que también conduce al éxito continuado de la plataforma de streaming.
+
+**Objetivos principal del proyecto:**
+
+Es enriquecer la experiencia de los usuarios en la plataforma de streaming al proporcionar recomendaciones altamente personalizadas y pertinentes sobre películas. Para alcanzar este propósito, se requiere la implementación de sistemas de recomendación que se basen en datos detallados sobre las preferencias individuales de los usuarios y su historial de visualización.
+
+**Objetivos Específicos:**
+
+**Obtención de Datos de Películas:** Obtener información completa sobre las películas disponibles en la plataforma, incluyendo detalles como género, director, actores, duración y año de lanzamiento.
+
+
+**Éxito Sostenido de la Plataforma:** Asegurar que la implementación exitosa de los sistemas de recomendación no solo beneficie a los usuarios al ofrecerles contenido relevante y atractivo, sino que también contribuya al éxito continuo de la plataforma de streaming, manteniendo y fidelizando a la base de usuarios.
+
+
+**Recopilación de Datos:** Reunir datos exhaustivos acerca de las preferencias individuales de los usuarios, como sus géneros preferidos, actores favoritos y directores.
+
+**Implementación de Sistemas de Recomendación:** Incorporar los sistemas de recomendación en la plataforma de streaming, permitiendo a los usuarios acceder a recomendaciones completamente personalizadas.
+
+
+**Evaluación del Éxito:** Evaluar la eficacia de los sistemas de recomendación mediante métricas de rendimiento, como la tasa de interacción con las recomendaciones y la satisfacción del usuario.
+
+
+**Desarrollo de Algoritmos:** Utilizar el lenguaje de programación Python para crear algoritmos de recomendación personalizada altamente efectivos. Estos algoritmos deberán realizar un análisis minucioso de los datos de los usuarios y las películas con el fin de generar recomendaciones acertadas.
+
+
+**Refinamiento Continuo:** Continuar perfeccionando y optimizando los algoritmos de recomendación con el propósito de aumentar la precisión y relevancia de las recomendaciones en el tiempo.
+
+
 # <a name="_heading=h.1fob9te"></a>**4.  Descripción del conjunto de datos (dataset):**
-El data set se compone por 1500 entradas tomadas de imdb con información de películas. 
+El data set se compone por 2000 entradas tomadas de Kaggle con información de películas. 
+
+Kaggle es una plataforma de ciencia de datos y aprendizaje automático que alberga una variedad de conjuntos de datos para proyectos de análisis y modelado.
+
 
 Se tomó en cuenta para la realización de las tablas, las siguientes características:
 
 
 |Dato|Descripción|Tipo de dato|
 | :-: | :-: | :-: |
-|idPelicula|Es el identificador de cada película|int|
-|tituloPelicula|Título que identifica a la pélicula|string|
-|duracionMinutos|El tiempo que dura la película expresado en minutos|int|
-|directorPelicula|Director de la pélicula|string|
-|actoresPelicula|Actores de la película (separados por comas)|string|
-|generoPelicula|Géneros de la película (separados por comas)|<p>string</p><p></p>|
+|id|Es el identificador de cada película|int|
+|titulo|Título que identifica a la pélicula|string|
+|duracion|El tiempo que dura la película expresado en minutos|int|
+|director|Director de la pélicula|string|
+|actores|Actores de la película (separados por comas)|string|
+|genero|Géneros de la película (separados por comas)|string|
+|year|Año de la película|int|
+<p></p><p></p>
 
 Se muestra el grafo según los datos recolectados de un dataset:
 <p align="center">
@@ -92,13 +127,12 @@ Se muestra el grafo según los datos recolectados de un dataset:
 </p>
 
 # <a name="_heading=h.5wlqmxs06ajq"></a>**5. Propuesta:**
-### Objetivo:
 
 La propuesta de solución del problema que presentamos es lo siguiente:
 
 - Construcción del Grafo: En la primera etapa de nuestra solución, nos enfocamos en la construcción del grafo que servirá como la base de nuestro sistema de recomendación. Para lograrlo, utilizamos una matriz de adyacencia en memoria donde cada nodo representa una película, identificada de manera única por un número. Para establecer relaciones entre las películas, asignamos valores numéricos que varían desde "0" hasta infinito, indicando ausencia de relación. Para evaluar el grado de relación, consideramos varios factores, como la duración, el director, el ID y los géneros de las películas, a los cuales asignamos los puntajes correspondientes. El peso en la matriz de adyacencia se calcula mediante una fórmula que se basa en el grado de relación, lo que nos proporciona un grafo con información relevante sobre la afinidad entre películas.
 
-- Interfaz de Usuario Amigable: En la segunda fase de nuestra solución, diseñamos una interfaz de usuario amigable y accesible. Esta interfaz permite a los usuarios ingresar el nombre de la película que desean ver y, al hacer clic en el botón de búsqueda, obtienen información detallada sobre esa película. Además, se presenta una lista de las películas más relacionadas en el grafo, lo que facilita a los usuarios encontrar opciones afines a sus preferencias. Esta interfaz no solo enriquece la experiencia del usuario, sino que también facilita la exploración y selección de películas de manera efectiva.
+- Interfaz de Usuario Amigable: En la segunda fase de nuestra solución, diseñaremos una interfaz de usuario amigable y accesible. Esta interfaz permitirá a los usuarios ingresar el nombre de la película que desean ver y, al hacer clic en el botón de búsqueda, obtendrán información detallada sobre esa película. Además, se presentará una lista de las películas más relacionadas en el grafo, lo que facilitará a los usuarios encontrar opciones afines a sus preferencias. Esta interfaz no solo enriquece la experiencia del usuario, sino que también facilitará la exploración y selección de películas de manera efectiva.
   
 - Adaptación Continua del Grafo: La tercera etapa de nuestra solución se centra en la adaptación continua del grafo. Cuando los usuarios disfrutan de películas que les agradan, implementamos un mecanismo que "acerca" estas películas en el grafo almacenado en un archivo de texto. Para lograrlo, reducimos el peso de las conexiones entre las películas seleccionadas. Por ejemplo, si un usuario ve las películas A, B y C, disminuimos el peso de las conexiones entre A y B, A y C, y B y C en el grafo. Este enfoque dinámico permite a los usuarios encontrar películas afines con mayor facilidad y mejora constantemente las recomendaciones a medida que los usuarios exploran y disfrutan de películas en la plataforma.
 
@@ -118,7 +152,7 @@ Las técnicas que pensamos implementar son las siguientes:
 
 ### Metodología:
 
-Nuestra metodología en el desarrollo del programa de recomendaciones de películas en Python se basa en un enfoque colaborativo y de iteración continua. Comenzamos recolectando y procesando datos de preferencias de usuarios y detalles de películas mediante técnicas de minería de datos. En la fase de diseño, modelamos las relaciones en una red de preferencias usando análisis de grafos y aplicamos algoritmos de aprendizaje automático para mejorar las recomendaciones. La implementación se realiza en Python, con bibliotecas junto con una interfaz de usuario interactiva en Tkinter. Evaluamos y ajustamos constantemente el sistema en función de métricas y retroalimentación de usuarios, manteniendo un diálogo abierto para refinamientos continuos. Esta metodología nos permite adaptarnos a las cambiantes preferencias de los usuarios y mejorar constantemente la experiencia de recomendación de películas.
+Nuestra metodología en el desarrollo del programa de recomendaciones de películas en Python se basa en un enfoque colaborativo y de iteración continua. Comenzamos recolectando y procesando datos de preferencias de usuarios y detalles de películas mediante técnicas. En la fase de diseño, modelamos las relaciones en una red de preferencias usando análisis de grafos y aplicamos algoritmos de aprendizaje automático para mejorar las recomendaciones. La implementación se realiza en Python, con bibliotecas junto con una interfaz de usuario interactiva en Tkinter. Evaluamos y ajustamos constantemente el sistema en función de métricas y retroalimentación de usuarios, manteniendo un diálogo abierto para refinamientos continuos. Esta metodología nos permite adaptarnos a las cambiantes preferencias de los usuarios y mejorar constantemente la experiencia de recomendación de películas.
 
 ### Lenguaje de programación:
 
@@ -137,3 +171,7 @@ Nuestra metodología en el desarrollo del programa de recomendaciones de pelícu
 *Cañibano, J. (2022).* *Creación de grafos de conocimiento a partir de código de software científico en distintos lenguajes de programación. Recuperado de:[ ](https://oa.upm.es/72746/)[https://oa.upm.es/72746/*](https://oa.upm.es/72746/)*
 
 *Cremonesi, P., Koren, Y., & Turrin, R. (2010). Performance of recommender algorithms on top-n recommendation tasks. ACM Transactions on Intelligent Systems and Technology, 1(3), 1-20. Recuperado de:[* ](https://doi.org/10.1145/1864708.1864721)<https://doi.org/10.1145/1864708.1864721>*
+
+*Polo, J. D. (2023). Este es el gran problema que están teniendo las plataformas de ‘streaming’ por el exceso de contenidos. Muy Interesante. Recuperado de: [](https://www.muyinteresante.es/tecnologia/17472.html)*
+
+*IMDB Movies Dataset. (2021, 1 febrero). Kaggle. [](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows)*
