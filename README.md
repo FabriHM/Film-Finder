@@ -154,7 +154,7 @@ Las técnicas que pensamos implementar son las siguientes:
 
 - Nuestra metodología en el desarrollo del programa de recomendaciones de películas en Python se basa en un enfoque colaborativo y de iteración continua. Comenzamos recolectando y procesando datos de preferencias de usuarios y detalles de películas mediante técnicas. En la fase de diseño, modelaremos las relaciones en una red de preferencias usando análisis de grafos y aplicamos algoritmos de aprendizaje automático para mejorar las recomendaciones. La implementación se realiza en Python, con bibliotecas junto con una interfaz de usuario interactiva en Tkinter. Evaluaremos y ajustaremos constantemente el sistema en función de métricas y retroalimentación de usuarios, manteniendo un diálogo abierto para refinamientos continuos. Esta metodología nos permite adaptarnos a las cambiantes preferencias de los usuarios y mejorar constantemente la experiencia de recomendación de películas.
 
-Asimismo, se hará uso de la plataforma de GitHub para tener un control de versiones a lo largo del desarrollo de nuestro programa, ya que nos permitirá corregir, mejorar y llevar un orden del proyecto. Además, usaremos la plataforma de Trello y la comunicación en Discord para asignarnos tareas y poder colaborar efectivamente.
+- Asimismo, se hará uso de la plataforma de GitHub para tener un control de versiones a lo largo del desarrollo de nuestro programa, ya que nos permitirá corregir, mejorar y llevar un orden del proyecto. Además, usaremos la plataforma de Trello y la comunicación en Discord para asignarnos tareas y poder colaborar efectivamente.
 
 ### Lenguaje de programación:
 
