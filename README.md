@@ -85,10 +85,12 @@ Se tomó en cuenta para la realización de las tablas, las siguientes caracterí
 
 Se muestra el grafo según los datos recolectados de un dataset:
 <p align="center">
-  <img src="https://i.postimg.cc/T2Sw8PHH/Whats-App-Image-2023-09-28-at-1-24-30-AM.jpg" alt="UPC logo">
+  <img src="https://i.postimg.cc/dtbRJ61F/codigo1.png" alt="part1">
+</p>
+<p align="center">
+  <img src="https://i.postimg.cc/s2yph270/codigo2.png" alt="part2">
 </p>
 
-![](Aspose.Words.a9942042-5445-4390-9fec-15ebdc98e3e5.002.png)
 # <a name="_heading=h.5wlqmxs06ajq"></a>**5. Propuesta:**
 ### Objetivo:
 
@@ -103,15 +105,15 @@ La propuesta de solución del problema que presentamos es lo siguiente:
 
 ### Técnicas:
 
-Las técnicas que vamos a  implementar son las siguientes:
+Las técnicas que pensamos implementar son las siguientes:
 
-- Aplicación de Técnicas de Recorrido y Búsqueda en Grafos: La utilización de técnicas de recorrido y búsqueda en grafos fue fundamental en nuestro sistema de recomendaciones de películas. Estas técnicas nos permitieron identificar patrones de interacción entre usuarios y películas, lo que mejoró la personalización de las recomendaciones al explorar las conexiones dentro de la red de preferencias de los usuarios.
+- Aplicación de Técnicas de Recorrido y Búsqueda en Grafos: La utilización de técnicas de recorrido y búsqueda en grafos es fundamental en nuestro sistema de recomendaciones de películas. Estas técnicas nos permiten identificar patrones de interacción entre usuarios y películas, lo que mejora la personalización de las recomendaciones al explorar las conexiones dentro de la red de preferencias de los usuarios.
 
-- Eficiente Manejo de Datos con la Estrategia "Divide y Vencerás": Implementaremos con éxito la estrategia "Divide y Vencerás" para organizar y procesar datos relacionados con películas y usuarios. Esta estrategia simplificó la gestión de conjuntos de información extensos, lo que a su vez contribuyó a una recomendación más efectiva y precisa.
+- Eficiente Manejo de Datos con la Estrategia "Divide y Vencerás": Implementaremos con éxito la estrategia "Divide y Vencerás" para organizar y procesar datos relacionados con películas y usuarios. Esta estrategia simplificará la gestión de conjuntos de información extensos, lo que a su vez contribuirá a una recomendación más efectiva y precisa.
 
-- Optimización Mediante Minimum Spanning Tree (MST): La incorporación de MST en nuestro programa permitió identificar relaciones clave entre películas y usuarios, lo que ayudó a priorizar las recomendaciones al enfocarse en las conexiones más relevantes dentro de la red de preferencias. Esto resultó en recomendaciones más significativas para los usuarios.
+- Optimización Mediante Minimum Spanning Tree (MST): La incorporación de MST en nuestro programa permitirá identificar relaciones clave entre películas y usuarios, lo que ayudará a priorizar las recomendaciones al enfocarse en las conexiones más relevantes dentro de la red de preferencias. Esto llevaria a cabo el resultado de recomendaciones más significativas para los usuarios.
 
-- Mejora de la Eficiencia con Programación Dinámica: La programación dinámica se utilizará para optimizar la eficiencia en la generación de recomendaciones. Al mejorar procesos y cálculos, logramos acelerar el proceso de selección de películas recomendadas, beneficiando tanto a los usuarios como a la plataforma de streaming en sí.
+- Mejora de la Eficiencia con Programación Dinámica: La programación dinámica se planea utilizarla para optimizar la eficiencia en la generación de recomendaciones. Al mejorar procesos y cálculos, logramos acelerar el proceso de selección de películas recomendadas, beneficiando tanto a los usuarios como a la plataforma de streaming en sí.
 
 
 ### Metodología:
@@ -122,11 +124,11 @@ Nuestra metodología en el desarrollo del programa de recomendaciones de pelícu
 
 - Para el desarrollo de nuestra aplicación en Python, haremos uso de una combinación de valiosas bibliotecas y recursos. Tkinter será esencial para crear una interfaz gráfica de usuario (GUI) interactiva, mientras que Matplotlib facilitará la representación visual efectiva de datos mediante gráficos y gráficos. NetworkX será una herramienta clave para analizar y manipular redes, lo que nos permitirá modelar y entender conexiones complejas. NumPy se utilizará para operaciones matriciales eficientes, y Pandas simplificará el manejo y procesamiento de datos en forma de marcos de datos. En conjunto, estas bibliotecas y recursos nos brindarán las capacidades necesarias para crear una aplicación versátil y poderosa.
 # <a name="_heading=h.r3agy7j393jx"></a>**6. Conclusiones:**
-- Utilizamos la biblioteca Tkinter para desarrollar una interfaz de usuario interactiva que permite a los usuarios interactuar de manera fácil y amigable con nuestro sistema de recomendaciones de películas.
+- Utilizaremos la biblioteca Tkinter para desarrollar una interfaz de usuario interactiva que permite a los usuarios interactuar de manera fácil y amigable con nuestro sistema de recomendaciones de películas.
 
 - Para poder representar los datos, utilizaremos a los grafos como medio de conexión entre sus nodos y aristas.
 
-- Utilizamos Matplotlib para visualizar gráficamente datos sobre las preferencias de los usuarios y las películas recomendadas, facilitando la interpretación de información compleja y fomentando la toma de decisiones basada en datos.
+- Consideramos que Matplotlib para visualizar gráficamente datos sobre las preferencias de los usuarios y las películas recomendadas, facilitando la interpretación de información compleja y fomentando la toma de decisiones basada en datos.
 
 - El procesamiento eficiente de información y la gestión de datos tabulares, estas capacidades permiten ofrecer recomendaciones precisas y personalizadas a los usuarios, mejorando así la experiencia en nuestra plataforma de recomendaciones de películas.
 
