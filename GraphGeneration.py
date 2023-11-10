@@ -58,3 +58,43 @@ for _, row in data.iterrows():
     data2.append(movie_values)
 
 G = nx.Graph()
+# Generate the adjacency matrix
+adjacency_matrix = np.full((nodes, nodes), 0)
+
+# Add nodes to the graph
+for movie in data2:
+    G.add_node(movie[0])
+
+# Add edges to the graph with their respective weights
+for i in range(len(data2)):
+    for j in range(i + 1, len(data2)):
+        weight = 0
+        # Calculate weights based on various conditions
+        if data2[i][1] == data2[j][1] and data2[i][1] != -1:
+            weight += 1
+        if data2[i][2] == data2[j][2] and data2[i][1] != -1:
+            weight += 5
+        for actor_i in data2[i][3]:
+            for actor_j in data2[j][3]:
+                if actor_i == actor_j and actor_i != -1:
+                    weight += 1
+        for genre_i in data2[i][4]:
+            for genre_j in data2[j][4]:
+                if genre_i == genre_j and genre_i != -1:
+                    weight += 5
+        if data2[i][5] == data2[j][5] and data2[i][1] != -1:
+            weight += 1
+        # Consider only edges with a weight greater than 2
+        if weight > 2:
+            similarity = 100 / weight
+            adjacency_matrix[data2[j][0]][data2[i][0]] = weight
+            adjacency_matrix[data2[i][0]][data2[j][0]] = weight
+            G.add_edge(data2[i][0], data2[j][0], weight=weight)
+
+# Print the adjacency matrix to a CSV file
+df = pd.DataFrame(adjacency_matrix)
+df.to_csv('matrizAdy.csv', index=False, header=False)
+
+# Draw the graph using NetworkX and Matplotlib
+nx.draw(G, with_labels=False, node_size=5, node_color='black')
+plt.show()
