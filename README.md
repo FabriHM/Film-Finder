@@ -36,9 +36,11 @@ Luis Martín Canaval Sánchez
 
 ### 5. [Propuesta](#_heading=h.5wlqmxs06ajq)
 
-### 6. [Conclusiones](#_heading=h.r3agy7j393jx)
+### 6. [Diseño de la aplicación](#_heading=h.u20dhwuq2)
 
-### 7. [Referencias Bibliográficas](#_heading=h.kavcqy7ojzs)
+### 7. [Conclusiones](#_heading=h.r3agy7j393jx)
+
+### 8. [Referencias Bibliográficas](#_heading=h.kavcqy7ojzs)
 
 
 # <a name="_heading=h.i8pqd6cqtj61"></a>**1. Enunciado del Proyecto**
@@ -155,19 +157,8 @@ La propuesta de solución del problema que presentamos es lo siguiente:
 
 Se muestra un ejemplo esquematizado del grafo:
 <p align="center">
-  <img src="https://i.postimg.cc/ZRLQ8fnr/image.png" alt="image">
+  <img src="https://i.postimg.cc/Qx03GJQ4/image.png" alt="image">
 </p>
-
-### Diseño de la aplicación:
-
-El diseño de nuestra aplicación se basa en principalmente tener una ventana donde el usuario puede iniciar sesión o registrarse en caso no tenga una cuenta creada:
-
-| ![Login](https://i.postimg.cc/rFByDmr5/login.png) | ![Register](https://i.postimg.cc/xjk3Qxyq/register.png) |
-|---------------------------------------------------|---------------------------------------------------------|
-
-Después de que el usuario haya iniciado sesión correctamente, se procede a abrir la aplicación donde puede ver una lista de películas a elegir junto a su género y director:
-
-
 
 ### Técnicas:
 
@@ -191,7 +182,33 @@ Las técnicas que pensamos implementar son las siguientes:
 ### Lenguaje de programación:
 
 - Para el desarrollo de nuestra aplicación en Python, haremos uso de una combinación de valiosas bibliotecas y recursos. Tkinter será esencial para crear una interfaz gráfica de usuario (GUI) interactiva, mientras que Matplotlib facilitará la representación visual efectiva de datos mediante gráficos y gráficos. NetworkX será una herramienta clave para analizar y manipular redes, lo que nos permitirá modelar y entender conexiones complejas. NumPy se utilizará para operaciones matriciales eficientes, y Pandas simplificará el manejo y procesamiento de datos en forma de marcos de datos. En conjunto, estas bibliotecas y recursos nos brindarán las capacidades necesarias para crear una aplicación versátil y poderosa.
-# <a name="_heading=h.r3agy7j393jx"></a>**6. Conclusiones:**
+
+# <a name="_heading=h.u20dhwuq2"></a>**6. Diseño de la aplicación**
+
+El diseño de nuestra aplicación se basa en principalmente tener una ventana donde el usuario puede iniciar sesión o registrarse en caso no tenga una cuenta creada:
+
+| ![Login](https://i.postimg.cc/rFByDmr5/login.png) | ![Register](https://i.postimg.cc/xjk3Qxyq/register.png) |
+|---------------------------------------------------|---------------------------------------------------------|
+
+Después de que el usuario haya iniciado sesión correctamente, se procede a abrir la aplicación donde puede ver una lista de películas a elegir junto a su género y director:
+
+| ![Búsqueda](https://i.postimg.cc/XqWtCrbD/image.png) | ![L](https://i.postimg.cc/jSyN8C0h/image.png) |
+|---------------------------------------------------|---------------------------------------------------------|
+
+El usuario puede poner el nombre de una película de la lista o el ID perteneciente a esta, para esto previamente se ejecuta el código para generar la matriz de adyacencia, que sirve para saber los pesos de las películas. Se emplea un enfoque de Fuerza Bruta para poder obtener las coincidencias en un par de películas y asignarle el peso correspondiente a cada una, de esta manera se genera la matriz de adyacencia.
+
+Estas son las reglas que se aplican:
+- Si la duración de las películas es la misma, suma 1 al peso.
+- Si el director de las películas es el mismo, suma 5 al peso.
+- Si hay actores en común entre las películas, suma 1 por cada coincidencia al peso.
+- Si hay géneros en común entre las películas, suma 5 por cada coincidencia al peso.
+- Si el año de las películas es el mismo, suma 1 al peso.
+
+| ![Búsqueda](https://i.postimg.cc/RZYq9B7D/image.png) |
+|---------------------------------------------------|
+
+
+# <a name="_heading=h.r3agy7j393jx"></a>**7. Conclusiones:**
 - Utilizaremos la biblioteca Tkinter para desarrollar una interfaz de usuario interactiva que permite a los usuarios interactuar de manera fácil y amigable con nuestro sistema de recomendaciones de películas.
 
 - Para poder representar los datos, utilizaremos a los grafos como medio de conexión entre sus nodos y aristas.
@@ -200,7 +217,7 @@ Las técnicas que pensamos implementar son las siguientes:
 
 - El procesamiento eficiente de información y la gestión de datos tabulares, estas capacidades permiten ofrecer recomendaciones precisas y personalizadas a los usuarios, mejorando así la experiencia en nuestra plataforma de recomendaciones de películas.
 
-# <a name="_heading=h.kavcqy7ojzs"></a>**7.    Referencias bibliográficas:**
+# <a name="_heading=h.kavcqy7ojzs"></a>**8.    Referencias bibliográficas:**
 
 *Cañibano, J. (2022).* *Creación de grafos de conocimiento a partir de código de software científico en distintos lenguajes de programación. Recuperado de:[ ](https://oa.upm.es/72746/)[https://oa.upm.es/72746/*](https://oa.upm.es/72746/)*
 
