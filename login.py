@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import csv
+from interfaceUI import MainWindow
 
 class LoginApp:
     def show_register_window(self):
@@ -56,6 +57,8 @@ class LoginApp:
             for row in reader:
                 if row[5] == user and row[6] == password:
                     messagebox.showinfo("Success", "Successful login.")
+                    main_window = MainWindow()
+                    main_window.mainloop()
                     return
 
         # Show error message if credentials are not valid
