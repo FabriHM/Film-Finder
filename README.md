@@ -52,9 +52,10 @@ El Trabajo Parcial/Final se plantea como una pieza central en el curso CC184 - C
 
 |Criterio específico|Acciones realizadas|Conclusiones|
 | :- | :- | :- |
-|4\.c1. Demuestra ética profesional en el ejercicio de la ingeniería de software.|<p>*Gonzales Arotinco, Bruno</p><p>TP:* Descripción de la problemática</p><p></p><p>*Huillca Mateos, Fabricio Raúl</p><p>TP:* DataSet</p><p></p><p>*Burga Loarte, Anaely</p><p>TP:* Propuesta</p>|<p>Gonzales Arotinco Bruno </p><p>TP: En el campo de la ingeniería y la tecnología, se vuelve esencial abordar la necesidad de desarrollar sistemas de recomendación efectivos destinados a plataformas de streaming como Netflix y HBO Max. Este desafío implica la implementación de algoritmos basados en grafos para comprender profundamente las preferencias de los usuarios y ofrecerles recomendaciones altamente personalizadas.</p><p></p><p>Huillca Mateos Fabricio Raúl</p><p>TP: En este proceso, es crucial exhibir un sólido entendimiento del código ético propio de nuestra profesión. Esto no solo se refiere a estar familiarizado con las normas éticas, sino también a la habilidad de emitir juicios éticos en situaciones donde se pueda poner en riesgo la integridad del código ético. Mantener una conducta ética es esencial para mantener la confianza y la integridad en el desarrollo de sistemas tecnológicos.</p><p></p><p>Burga Loarte Anaely</p><p>TP: Además, en relación con la propiedad intelectual, es imperativo mantener un profundo respeto por los derechos de propiedad intelectual. Esto engloba el reconocimiento y la preservación de los derechos de autor y la propiedad de datos. La integridad ética y la adhesión a las regulaciones son elementos fundamentales en la creación de sistemas de recomendación de películas que funcionen de manera efectiva y respetuosa tanto con los usuarios como con los creadores de contenido.</p>|
-|4\.c2. Demuestra Responsabilidad profesional para el logro de los objetivos |<p>*Gonzales Arotinco, Bruno</p><p>TP:* Descripción de la problemática</p><p></p><p>*Huillca Mateos, Fabricio Raúl</p><p>TP:* DataSet</p><p></p><p>*Burga Loarte, Anaely</p><p>TP:* Propuesta</p>|<p>Gonzales Arotinco Bruno</p><p>TP:En el ámbito de la ingeniería, resulta imprescindible que el profesional tenga una comprensión sólida de las habilidades que son características de su perfil. Esto implica el reconocimiento de las competencias específicas que definen su campo de trabajo y que son esenciales para su desempeño profesional.</p><p></p><p>Huillca Mateos Fabricio Raúl</p><p>TP:Es de gran importancia que el ingeniero reconozca la relevancia de sociedades profesionales como la IEEE Computer Society y ACM. Estas organizaciones desempeñan un rol crítico al promover estándares éticos y técnicos, y al mantener a los profesionales actualizados en un entorno en constante cambio.</p><p></p><p>Burga Loarte Anaely</p><p>TP: Se espera que el profesional de la ingeniería cumpla con sus responsabilidades y compromisos en los proyectos en los que participe. En situaciones donde surjan eventos que puedan amenazar la consecución de estos compromisos, se espera que sea capaz de entablar negociaciones efectivas con las partes interesadas para asegurar que se logren los objetivos establecidos previamente. Esto refleja un enfoque proactivo hacia la gestión de proyectos y el cumplimiento de los estándares éticos que son fundamentales en la práctica de la ingeniería.</p>|
-|4\.c3. Emite juicios considerando el impacto de las soluciones de ingeniería de software en el contexto global, impacto social, ambiental y económico|<p>*Gonzales Arotinco, Bruno</p><p>TP:* Descripción de la problemática</p><p></p><p>*Huillca Mateos, Fabricio Raúl</p><p>TP:* DataSet</p><p></p><p>*Burga Loarte, Anaely</p><p>TP:* Propuesta</p>|<p>Gonzales Arotinco Bruno</p><p>TP: Es esencial considerar mediciones de factores que tienen un impacto a nivel global. Esto implica la evaluación cuidadosa de variables y tendencias que tienen un alcance más allá de las fronteras locales o nacionales, y que pueden influir en el diseño y desarrollo de productos de ingeniería.</p><p></p><p>Huillca Mateos Fabricio Raúl</p><p>TP:Se debe identificar y aplicar prácticas exitosas a nivel mundial en el diseño o desarrollo de productos de ingeniería. Esto significa estar abierto a la adopción de enfoques, técnicas y soluciones que han demostrado su eficacia en un contexto global, en lugar de limitarse a enfoques locales o regionales.</p><p></p><p>Burga Loarte Anaely</p><p>TP: Finalmente, es importante comprender las repercusiones sociales, ambientales y económicas que generan las soluciones de ingeniería en la sociedad contemporánea. Esto implica un enfoque integral que considera no sólo los aspectos técnicos, sino también los impactos más amplios que una solución de ingeniería puede tener en las personas, el medio ambiente y la economía en un contexto globalizado.</p>|
+|4\.c1. Demuestra ética profesional en el ejercicio de la ingeniería de software.|<p>*Gonzales Arotinco, Bruno</p><p>TP:* Descripción de la problemática</p><p></p><p>*Huillca Mateos, Fabricio Raúl</p><p>TP:* DataSet</p><p></p><p>*Burga Loarte, Anaely</p><p>TP:* Propuesta</p>|<p>Gonzales Arotinco Bruno </p><p>TP: En el campo de la ingeniería y la tecnología, se vuelve esencial abordar la necesidad de desarrollar sistemas de recomendación efectivos destinados a plataformas de streaming como Netflix y HBO Max. Este desafío implica la implementación de algoritmos basados en grafos para comprender profundamente las preferencias de los usuarios y ofrecerles recomendaciones altamente personalizadas. <br/><br/> Hito 2: En la concepción del aplicativo, se priorizó la ética al centrarse en la salvaguardia de la privacidad del usuario. Se implementaron prácticas de protección de datos y políticas de privacidad transparentes, asegurando el cumplimiento de regulaciones. La transparencia en el uso de datos y algoritmos se destacó para empoderar a los usuarios con un entendimiento claro del proceso de recomendación.</p><br/><br/><p>Huillca Mateos Fabricio Raúl</p><p>TP: En este proceso, es crucial exhibir un sólido entendimiento del código ético propio de nuestra profesión. Esto no solo se refiere a estar familiarizado con las normas éticas, sino también a la habilidad de emitir juicios éticos en situaciones donde se pueda poner en riesgo la integridad del código ético. Mantener una conducta ética es esencial para mantener la confianza y la integridad en el desarrollo de sistemas tecnológicos. <br/><br/> Hito 2: La ética fue un pilar fundamental en el desarrollo del aplicativo, evidenciado por la implementación de medidas de seguridad robustas para resguardar la privacidad del usuario. La claridad en las políticas de privacidad y la transparencia en el manejo de datos y algoritmos se mantuvieron como principios rectores, garantizando una experiencia de usuario fundamentada en la confianza y el respeto.</p><br/><br/><p>Burga Loarte Anaely</p><p>TP: Además, en relación con la propiedad intelectual, es imperativo mantener un profundo respeto por los derechos de propiedad intelectual. Esto engloba el reconocimiento y la preservación de los derechos de autor y la propiedad de datos. La integridad ética y la adhesión a las regulaciones son elementos fundamentales en la creación de sistemas de recomendación de películas que funcionen de manera efectiva y respetuosa tanto con los usuarios como con los creadores de contenido. <br/><br/> Hito 2: En el diseño del aplicativo, se destacó un enfoque ético al salvaguardar la privacidad del usuario. Se adoptaron prácticas de protección de datos rigurosas y se establecieron políticas claras de privacidad, alineadas con normativas vigentes. La transparencia en el uso de datos y algoritmos se enfatizó, permitiendo a los usuarios comprender de manera completa y transparente el proceso de generación de recomendaciones.</p>|
+|4\.c2. Demuestra Responsabilidad profesional para el logro de los objetivos |<p>*Gonzales Arotinco, Bruno</p><p>TP:* Descripción de la problemática</p><p></p><p>*Huillca Mateos, Fabricio Raúl</p><p>TP:* DataSet</p><p></p><p>*Burga Loarte, Anaely</p><p>TP:* Propuesta</p>|<p>Gonzales Arotinco Bruno</p><p>TP:En el ámbito de la ingeniería, resulta imprescindible que el profesional tenga una comprensión sólida de las habilidades que son características de su perfil. Esto implica el reconocimiento de las competencias específicas que definen su campo de trabajo y que son esenciales para su desempeño profesional.<br/><br/> Hito 2: A lo largo del desarrollo del aplicativo, se evidenció una responsabilidad profesional al centrarse en la gestión eficaz del proyecto y la calidad del código. Las metas establecidas fueron realistas y alcanzables, demostrando un compromiso continuo con la mejora de la experiencia del usuario y una respuesta proactiva ante cualquier desafío.</p><br/><br/><p>Huillca Mateos Fabricio Raúl</p><p>TP:Es de gran importancia que el ingeniero reconozca la relevancia de sociedades profesionales como la IEEE Computer Society y ACM. Estas organizaciones desempeñan un rol crítico al promover estándares éticos y técnicos, y al mantener a los profesionales actualizados en un entorno en constante cambio.<br/><br/> Hito 2: La responsabilidad profesional fue un componente clave en el diseño del aplicativo, destacándose por la gestión efectiva del proyecto y el énfasis en la calidad del código. Las metas fueron establecidas de manera realista, y se evidenció un compromiso constante con la mejora continua de la experiencia del usuario, garantizando una respuesta proactiva ante posibles problemas.</p><br/><br/><p>Burga Loarte Anaely</p><p>TP: Se espera que el profesional de la ingeniería cumpla con sus responsabilidades y compromisos en los proyectos en los que participe. En situaciones donde surjan eventos que puedan amenazar la consecución de estos compromisos, se espera que sea capaz de entablar negociaciones efectivas con las partes interesadas para asegurar que se logren los objetivos establecidos previamente. Esto refleja un enfoque proactivo hacia la gestión de proyectos y el cumplimiento de los estándares éticos que son fundamentales en la práctica de la ingeniería.<br/><br/> Hito 2: En el diseño del aplicativo, se puso de manifiesto una responsabilidad profesional al lograr una gestión eficaz del proyecto y mantener altos estándares de calidad en el código. Las metas fueron establecidas de manera realista, evidenciando un compromiso constante con la mejora continua de la experiencia del usuario y una respuesta proactiva ante desafíos potenciales.</p>|
+|4\.c3. Emite juicios considerando el impacto de las soluciones de ingeniería de software en el contexto global, impacto social, ambiental y económico|<p>*Gonzales Arotinco, Bruno</p><p>TP:* Descripción de la problemática</p><p></p><p>*Huillca Mateos, Fabricio Raúl</p><p>TP:* DataSet</p><p></p><p>*Burga Loarte, Anaely</p><p>TP:* Propuesta</p>|<p>Gonzales Arotinco Bruno</p><p>TP: Es esencial considerar mediciones de factores que tienen un impacto a nivel global. Esto implica la evaluación cuidadosa de variables y tendencias que tienen un alcance más allá de las fronteras locales o nacionales, y que pueden influir en el diseño y desarrollo de productos de ingeniería.<br/><br/> Hito 2: En la conceptualización del aplicativo, se adoptó un enfoque global al evaluar su impacto en contextos social, ambiental y económico. La implementación de medidas para fomentar la diversidad cultural y evitar burbujas de filtro refleja una consideración consciente de las implicaciones sociales de las recomendaciones.</p><br/><br/><p>Huillca Mateos Fabricio Raúl</p><p>TP:Se debe identificar y aplicar prácticas exitosas a nivel mundial en el diseño o desarrollo de productos de ingeniería. Esto significa estar abierto a la adopción de enfoques, técnicas y soluciones que han demostrado su eficacia en un contexto global, en lugar de limitarse a enfoques locales o regionales.<br/><br/> Hito 2: El diseño del aplicativo reflejó una evaluación consciente de su impacto global, social y económico. La implementación de medidas para fomentar la inclusión y evitar la creación de burbujas de filtro demostró una consideración proactiva de las implicaciones sociales de las recomendaciones.</p><br/><br/><p>Burga Loarte Anaely</p><p>TP: Finalmente, es importante comprender las repercusiones sociales, ambientales y económicas que generan las soluciones de ingeniería en la sociedad contemporánea. Esto implica un enfoque integral que considera no sólo los aspectos técnicos, sino también los impactos más amplios que una solución de ingeniería puede tener en las personas, el medio ambiente y la economía en un contexto globalizado.<br/><br/> Hito 2: En la planificación del aplicativo, se evaluaron cuidadosamente las repercusiones globales, sociales y económicas. La implementación de medidas para fomentar la diversidad y la inclusión en las recomendaciones, junto con una evaluación del impacto ambiental, subraya una consideración integral de las implicaciones sociales y económicas de la aplicación</p>|
+
 
 
 # <a name="_heading=h.1larebgxxk8c"></a>Competencias Específicas: ABET 4 - Responsabilidad y ética (Anexo 1)
@@ -95,7 +96,6 @@ Kaggle es una plataforma de ciencia de datos y aprendizaje automático que alber
 
 Se tomó en cuenta para la realización de las tablas, las siguientes características:
 
-
 |Dato|Descripción|Tipo de dato|
 | :-: | :-: | :-: |
 |id|Es el identificador de cada película|int|
@@ -105,15 +105,43 @@ Se tomó en cuenta para la realización de las tablas, las siguientes caracterí
 |actors|Actores de la película (separados por comas)|string|
 |genres|Géneros de la película (separados por comas)|string|
 |year|Año de la película|int|
+
+Y para la data generada para el registro y login de usuarios, se consideró lo siguiente:
+Tabla de usuarios (Login):
+
+| Variable en Español     | Descripción                                       | Tipo                    |
+|-------------------------|---------------------------------------------------|-------------------------|
+| DNI                     | Identification Number                            | Integer                 |
+| Nombre Completo         | Full Name of the Person                           | String                  |
+| Fecha de Nacimiento     | Date of Birth of the Person                       | Date                    |
+| Teléfono                | Contact Phone Number                              | String or Integer       |
+| Correo Electrónico      | Email Address of the Person                       | String                  |
+| Usuario                 | Username for System Identification                | String                  |
+| Contraseña              | Secure and Private Access Key                     | String                  | 
 <p></p><p></p>
 
-Se muestra el grafo según los datos recolectados de un dataset:
+A continuación se muestran capturas del código para mostrar el grafo mediante Networkx:
 <p align="center">
-  <img src="https://i.postimg.cc/dtbRJ61F/codigo1.png" alt="part1">
+  <img src="https://i.postimg.cc/PxfMWS1n/codigopt1.png" alt="part1">
 </p>
 <p align="center">
-  <img src="https://i.postimg.cc/s2yph270/codigo2.png" alt="part2">
+  <img src="https://i.postimg.cc/kGbRKSYd/codigopt2.png" alt="part2">
 </p>
+
+Asimismo, se visualiza el grafo mediante las siguientes imágenes, al ser un grafo con 2000 nodos se necesita ampliar el gráfico para la mejor visualización:
+<p align="center">
+  <img src="https://i.postimg.cc/rpwdg3Zj/grafo1.png" alt="grafo1">
+</p>
+<p align="center">
+  <img src="https://i.postimg.cc/zvxXcSth/grafo2.png" alt="grafo2">
+</p>
+<p align="center">
+  <img src="https://i.postimg.cc/bwDNmnQG/grafo3.png" alt="grafo3">
+</p>
+<p align="center">
+  <img src="https://i.postimg.cc/MpQq7SSV/grafo4.png" alt="grafo4">
+</p>
+
 
 # <a name="_heading=h.5wlqmxs06ajq"></a>**5. Propuesta:**
 
@@ -125,6 +153,21 @@ La propuesta de solución del problema que presentamos es lo siguiente:
   
 - Adaptación Continua del Grafo: La tercera etapa de nuestra solución se centra en la adaptación continua del grafo. Cuando los usuarios disfrutan de películas que les agradan, implementamos un mecanismo que "acerca" estas películas en el grafo almacenado en un archivo de texto. Para lograrlo, reducimos el peso de las conexiones entre las películas seleccionadas. Por ejemplo, si un usuario ve las películas A, B y C, disminuimos el peso de las conexiones entre A y B, A y C, y B y C en el grafo. Este enfoque dinámico permite a los usuarios encontrar películas afines con mayor facilidad y mejora constantemente las recomendaciones a medida que los usuarios exploran y disfrutan de películas en la plataforma.
 
+Se muestra un ejemplo esquematizado del grafo:
+<p align="center">
+  <img src="https://i.postimg.cc/ZRLQ8fnr/image.png" alt="image">
+</p>
+
+### Diseño de la aplicación:
+
+El diseño de nuestra aplicación se basa en principalmente tener una ventana donde el usuario puede iniciar sesión o registrarse en caso no tenga una cuenta creada:
+
+| ![Login](https://i.postimg.cc/rFByDmr5/login.png) | ![Register](https://i.postimg.cc/xjk3Qxyq/register.png) |
+|---------------------------------------------------|---------------------------------------------------------|
+
+Después de que el usuario haya iniciado sesión correctamente, se procede a abrir la aplicación donde puede ver una lista de películas a elegir junto a su género y director:
+
+
 
 ### Técnicas:
 
@@ -134,9 +177,9 @@ Las técnicas que pensamos implementar son las siguientes:
 
 - Eficiente Manejo de Datos con la Estrategia "Divide y Vencerás": Implementaremos con éxito la estrategia "Divide y Vencerás" para organizar y procesar datos relacionados con películas y usuarios. Esta estrategia simplificará la gestión de conjuntos de información extensos, lo que a su vez contribuirá a una recomendación más efectiva y precisa.
 
-- Optimización Mediante Minimum Spanning Tree (MST): La incorporación de MST en nuestro programa permitirá identificar relaciones clave entre películas y usuarios, lo que ayudará a priorizar las recomendaciones al enfocarse en las conexiones más relevantes dentro de la red de preferencias. Esto llevaria a cabo el resultado de recomendaciones más significativas para los usuarios.
-
 - Mejora de la Eficiencia con Programación Dinámica: La programación dinámica se planea utilizarla para optimizar la eficiencia en la generación de recomendaciones. Al mejorar procesos y cálculos, logramos acelerar el proceso de selección de películas recomendadas, beneficiando tanto a los usuarios como a la plataforma de streaming en sí.
+
+- Fuerza Bruta: La utilización de fuerza bruta en nuestro sistema de recomendaciones implica una búsqueda detallada y exhaustiva de conexiones entre usuarios y películas. Este enfoque meticuloso nos permite examinar a fondo la red de preferencias de los usuarios, identificando patrones de interacción y perfeccionando las recomendaciones para ofrecer una experiencia más personalizada.
 
 
 ### Metodología:
