@@ -122,7 +122,7 @@ Tabla de usuarios (Login):
 | Contraseña              | Secure and Private Access Key                     | String                  | 
 <p></p><p></p>
 
-A continuación se muestran capturas del código para mostrar el grafo mediante Networkx:
+A continuación se muestran capturas del código para mostrar el grafo mediante Networkx de peliculas:
 <p align="center">
   <img src="https://i.postimg.cc/PxfMWS1n/codigopt1.png" alt="part1">
 </p>
@@ -130,7 +130,7 @@ A continuación se muestran capturas del código para mostrar el grafo mediante 
   <img src="https://i.postimg.cc/kGbRKSYd/codigopt2.png" alt="part2">
 </p>
 
-Asimismo, se visualiza el grafo mediante las siguientes imágenes, al ser un grafo con 2000 nodos se necesita ampliar el gráfico para la mejor visualización:
+Asimismo, se visualiza el grafo mediante las siguientes imágenes, al ser un grafo con 2000 nodos se necesita ampliar el gráfico para la mejor visualización en relación a las peliculas:
 <p align="center">
   <img src="https://i.postimg.cc/rpwdg3Zj/grafo1.png" alt="grafo1">
 </p>
@@ -192,7 +192,7 @@ El diseño de nuestra aplicación se basa en principalmente tener una ventana do
 
 Después de que el usuario haya iniciado sesión correctamente, se procede a abrir la aplicación donde puede ver una lista de películas a elegir junto a su género y director:
 
-| ![Búsqueda](https://i.postimg.cc/XqWtCrbD/image.png) | ![L](https://i.postimg.cc/jSyN8C0h/image.png) |
+| [![image.png](https://i.postimg.cc/wBJTs2mR/image.png)](https://postimg.cc/4KfTDzwX)| [![image1.png](https://i.postimg.cc/PrRt39b8/image1.png)](https://postimg.cc/0b7RrtB8)|
 |---------------------------------------------------|---------------------------------------------------------|
 
 El usuario puede poner el nombre de una película de la lista o el ID perteneciente a esta, para esto previamente se ejecuta el código para generar la matriz de adyacencia, que sirve para saber los pesos de las películas. Se emplea un enfoque de Fuerza Bruta para poder obtener las coincidencias en un par de películas y asignarle el peso correspondiente a cada una, de esta manera se genera la matriz de adyacencia.
@@ -204,12 +204,12 @@ Estas son las reglas que se aplican:
 - Si hay géneros en común entre las películas, suma 5 por cada coincidencia al peso.
 - Si el año de las películas es el mismo, suma 1 al peso.
 
-| ![Búsqueda](https://i.postimg.cc/RZYq9B7D/image.png) |
+| [![image2.png](https://i.postimg.cc/pdVqmG7q/image2.png)](https://postimg.cc/DSDqDg7X)|
 |---------------------------------------------------|
 
 Para la búsqueda de la película ingresada, se eligió implementar el algoritmo de búsqueda en amplitud (BFS) para la búsqueda de películas debido a la estructura de la base de datos, que se representa como un grafo. En este grafo, las películas son nodos y las conexiones entre ellas se modelan como aristas. La elección del BFS se debe a su eficiencia para explorar gradualmente las películas, partiendo de una película de referencia y expandiéndose a través de conexiones directas. Esta capacidad para explorar niveles cercanos antes de avanzar a niveles más distantes resulta beneficiosa para encontrar recomendaciones relacionadas, especialmente al considerar criterios específicos como género o director.
 
-| ![BFS](https://i.postimg.cc/9QNrJ4cD/image.pngg) |
+| ![BFS](https://i.postimg.cc/9QNrJ4cD/image.png) |
 |---------------------------------------------------|
 
 
