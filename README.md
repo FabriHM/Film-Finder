@@ -78,24 +78,13 @@ Es enriquecer la experiencia de los usuarios en la plataforma de streaming al pr
 
 **Objetivos Específicos:**
 
-**Obtención de Datos de Películas:** Obtener información completa sobre las películas disponibles en la plataforma, incluyendo detalles como género, director, actores, duración y año de lanzamiento.
+- Obtener información completa sobre las películas, incluyendo género, director, actores, duración y año de lanzamiento.
 
+- Recopilar datos exhaustivos sobre las preferencias individuales de los usuarios, como géneros preferidos, actores y directores.
 
-**Éxito Sostenido de la Plataforma:** Asegurar que la implementación exitosa de los sistemas de recomendación no solo beneficie a los usuarios al ofrecerles contenido relevante y atractivo, sino que también contribuya al éxito continuo de la plataforma de streaming, manteniendo y fidelizando a la base de usuarios.
+- Implementar sistemas de recomendación basados en algoritmos eficientes y análisis de datos.
 
-
-**Recopilación de Datos:** Reunir datos exhaustivos acerca de las preferencias individuales de los usuarios, como sus géneros preferidos, actores favoritos y directores.
-
-**Implementación de Sistemas de Recomendación:** Incorporar los sistemas de recomendación en la plataforma de streaming, permitiendo a los usuarios acceder a recomendaciones completamente personalizadas.
-
-
-**Evaluación del Éxito:** Evaluar la eficacia de los sistemas de recomendación mediante métricas de rendimiento, como la tasa de interacción con las recomendaciones y la satisfacción del usuario.
-
-
-**Desarrollo de Algoritmos:** Utilizar el lenguaje de programación Python para crear algoritmos de recomendación personalizada altamente efectivos. Estos algoritmos deberán realizar un análisis minucioso de los datos de los usuarios y las películas con el fin de generar recomendaciones acertadas.
-
-
-**Refinamiento Continuo:** Continuar perfeccionando y optimizando los algoritmos de recomendación con el propósito de aumentar la precisión y relevancia de las recomendaciones en el tiempo.
+- Evaluar la eficacia del sistema mediante métricas de rendimiento, como la tasa de interacción con las recomendaciones y la satisfacción del usuario.
 
 
 # <a name="_heading=h.1fob9te"></a>**4.  Descripción del conjunto de datos (dataset):**
@@ -174,6 +163,6 @@ Las técnicas que pensamos implementar son las siguientes:
 
 *Cremonesi, P., Koren, Y., & Turrin, R. (2010). Performance of recommender algorithms on top-n recommendation tasks. ACM Transactions on Intelligent Systems and Technology, 1(3), 1-20. Recuperado de:[ ](https://doi.org/10.1145/1864708.1864721)<https://doi.org/10.1145/1864708.1864721>*
 
-*Polo, J. D. (2023). Este es el gran problema que están teniendo las plataformas de ‘streaming’ por el exceso de contenidos. Muy Interesante. Recuperado de: [https://www.muyinteresante.es/tecnologia/17472.html](https://www.muyinteresante.es/tecnologia/17472.html)*
-
 *IMDB Movies Dataset. (2021, 1 febrero). Kaggle. Recuperado de: [https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows)*
+
+*Polo, J. D. (2023). Este es el gran problema que están teniendo las plataformas de ‘streaming’ por el exceso de contenidos. Muy Interesante. Recuperado de: [https://www.muyinteresante.es/tecnologia/17472.html](https://www.muyinteresante.es/tecnologia/17472.html)*
