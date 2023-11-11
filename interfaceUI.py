@@ -193,7 +193,7 @@ class MainWindow(tk.Tk):
 
     def update_graph(self):
         movie_name = self.entry_movie.get()
-        movie = self.search_movie(movie_name)
+        movie = self.search_movie_bfs(movie_name)
 
         # GETTING DATA:
         # Convert the DataFrame to an N x N matrix
