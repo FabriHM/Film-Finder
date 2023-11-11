@@ -185,17 +185,32 @@ Las técnicas que pensamos implementar son las siguientes:
 
 # <a name="_heading=h.u20dhwuq2"></a>**6. Diseño de la aplicación**
 
+- Vista (Interfaz Gráfica): <br>
+ Main: Contendrá la interfaz principal.  <br>
+- Controlador (Funciones interactivas): <br>
+ Iniciar Sesión: Función activada al interactuar con elementos gráficos, como la barra "Ingrese nombre de la película" en la parte superior de la interfaz. <br>
+ Buscar Película: Función asociada a la acción de presionar "Sugerencias" en la interfaz principal. <br>
+Esta estructura facilitará la interacción y navegación dentro de la aplicación, permitiendo a los usuarios iniciar sesión mediante la barra correspondiente y buscar películas al presionar el botón de sugerencias en la interfaz principal. <br> <br>
+
 El diseño de nuestra aplicación se basa en principalmente tener una ventana donde el usuario puede iniciar sesión o registrarse en caso no tenga una cuenta creada:
 
 | ![Login](https://i.postimg.cc/rFByDmr5/login.png) | ![Register](https://i.postimg.cc/xjk3Qxyq/register.png) |
 |---------------------------------------------------|---------------------------------------------------------|
 
-Después de que el usuario haya iniciado sesión correctamente, se procede a abrir la aplicación donde puede ver una lista de películas a elegir junto a su género y director:
+Después de que el usuario haya iniciado sesión correctamente, se procede a abrir la aplicación donde puede ver una lista de películas a elegir junto a su género y director, es ahí donde se muestra un grafo para recomendar las péliculas acompañado de una lista:
 
-| [![image.png](https://i.postimg.cc/wBJTs2mR/image.png)](https://postimg.cc/4KfTDzwX)| [![image1.png](https://i.postimg.cc/PrRt39b8/image1.png)](https://postimg.cc/0b7RrtB8)|
-|---------------------------------------------------|---------------------------------------------------------|
+<p align="center">
+  <img src="https://i.postimg.cc/wBJTs2mR/image.png" alt="ejecucion">
+</p><br>
+<p align="center">
+  <img src="https://i.postimg.cc/PrRt39b8/image1.png" alt="zoom">
+</p>
 
-El usuario puede poner el nombre de una película de la lista o el ID perteneciente a esta, para esto previamente se ejecuta el código para generar la matriz de adyacencia, que sirve para saber los pesos de las películas. Se emplea un enfoque de Fuerza Bruta para poder obtener las coincidencias en un par de películas y asignarle el peso correspondiente a cada una, de esta manera se genera la matriz de adyacencia.
+- Modelo:
+
+El modelo consistirá en un conjunto de entidades encargadas de gestionar la obtención y modificación de datos almacenados en disco. Estos datos incluirán la tabla de usuarios (con información como correo y clave), la tabla de detalles de las películas, y la matriz de adyacencia. En consecuencia, se establecerán tres modelos distintos: Usuario, Matriz y Película. Cada uno de estos modelos desempeñará un papel específico en la manipulación de la información correspondiente a usuarios, relaciones entre elementos y detalles de películas.
+
+También,  el usuario puede poner el nombre de una película de la lista o el ID perteneciente a esta, para esto previamente se ejecuta el código para generar la matriz de adyacencia, que sirve para saber los pesos de las películas. Se emplea un enfoque de Fuerza Bruta para poder obtener las coincidencias en un par de películas y asignarle el peso correspondiente a cada una, de esta manera se genera la matriz de adyacencia.En relación con los filtros, es posible especificar un director o género para mostrar únicamente las películas que cumplen con esa restricción.
 
 Estas son las reglas que se aplican:
 - Si la duración de las películas es la misma, suma 1 al peso.
