@@ -207,6 +207,11 @@ Estas son las reglas que se aplican:
 | ![Búsqueda](https://i.postimg.cc/RZYq9B7D/image.png) |
 |---------------------------------------------------|
 
+Para la búsqueda de la película ingresada, se eligió implementar el algoritmo de búsqueda en amplitud (BFS) para la búsqueda de películas debido a la estructura de la base de datos, que se representa como un grafo. En este grafo, las películas son nodos y las conexiones entre ellas se modelan como aristas. La elección del BFS se debe a su eficiencia para explorar gradualmente las películas, partiendo de una película de referencia y expandiéndose a través de conexiones directas. Esta capacidad para explorar niveles cercanos antes de avanzar a niveles más distantes resulta beneficiosa para encontrar recomendaciones relacionadas, especialmente al considerar criterios específicos como género o director.
+
+| ![BFS](https://i.postimg.cc/9QNrJ4cD/image.pngg) |
+|---------------------------------------------------|
+
 
 # <a name="_heading=h.r3agy7j393jx"></a>**7. Conclusiones:**
 - Utilizaremos la biblioteca Tkinter para desarrollar una interfaz de usuario interactiva que permite a los usuarios interactuar de manera fácil y amigable con nuestro sistema de recomendaciones de películas.
