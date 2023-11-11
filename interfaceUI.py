@@ -39,29 +39,43 @@ def get_subgraph(adjacency_matrix, node_list, node):
     return subgraph_matrix, subgraph_nodes
 
 class MainWindow(tk.Tk):
-    def __init__(self):
+        def __init__(self):
         super().__init__()
-
+        self.configure(bg='black')
+        self.tk_setPalette(background='#2E2E2E', foreground='white')
+        label_font = ('Montserrat', 10)
         self.title("Movie Suggestions")
         self.geometry("1200x600")
 
-        self.label_movie = tk.Label(self, text="Enter the name of the movie:")
+         # Crear un tema de estilo
+        style = ttk.Style(self)
+        
+        # Configurar el tema para el Combobox
+        style.theme_create("custom_theme", parent="alt", settings={
+            "TCombobox": {
+                "configure": {"selectbackground": 'white', "fieldbackground": '#2E2E2E', "foreground": 'white'},
+            }
+        })
+
+        style.theme_use("custom_theme")
+
+        self.label_movie = tk.Label(self, text="Enter the name of the movie:", fg='white', bg = 'black', font=label_font)
         self.label_movie.place(x=20, y=45)
 
-        self.label_1 = tk.Label(self, text="Director:")
+        self.label_1 = tk.Label(self, text="Director:", fg='white', bg = 'black', font=label_font)
         self.label_1.place(x=900, y=45)
 
-        self.label_2 = tk.Label(self, text="Genre:")
+        self.label_2 = tk.Label(self, text="Genre:", fg='white', bg = 'black', font=label_font)
         self.label_2.place(x=600, y=45)
 
         self.entry_movie = tk.Entry(self)
         self.entry_movie.place(x=250, y=45)
 
-        self.button_update = tk.Button(self, text="Suggestions", command=self.make_suggestion)
+        self.button_update = tk.Button(self, text="Suggestions", command=self.make_suggestion, fg='white', bg = 'blue', font=label_font)
         self.button_update.place(x=450, y=40)
 
         # Create a table
-        self.table = ttk.Treeview(self, columns=("ID", "Name", "Director", "Genre", "Duration(mins)"), show="headings")
+        self.table = ttk.Treeview(self, columns=("ID", "Name", "Director", "Genre", "Duration(mins)"), show="headings", style="mystyle.Treeview")
         self.table.column("ID", width=50)
         self.table.column("Name", width=150)
         self.table.column("Director", width=150)
@@ -94,19 +108,19 @@ class MainWindow(tk.Tk):
         # Get a list of unique genres (separated by ',')
         self.genres = df['genres'].str.split(',').explode().apply(lambda x: x.strip()).unique().tolist()
 
-        # Create the genres combobox
-        self.combo_genres = ttk.Combobox(self)
+         # Create the genres combobox
+        self.combo_genres = ttk.Combobox(self, style="custom_theme.TCombobox")
         self.combo_genres['values'] = self.genres
-        self.combo_genres.place(x=690, y=45)
+        self.combo_genres.place(x=655, y=45)
 
         # Create the directors combobox
-        self.combo_directors = ttk.Combobox(self)
+        self.combo_directors = ttk.Combobox(self, style="custom_theme.TCombobox")
         self.combo_directors['values'] = self.directors
-        self.combo_directors.place(x=990, y=45)
+        self.combo_directors.place(x=965, y=45)
 
         # Load the adjacency matrix
         self.matrix = np.loadtxt('matrizAdy.csv', delimiter=',')
-
+        
         # Create an example graph
         self.update_graph()
 
