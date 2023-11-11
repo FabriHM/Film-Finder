@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from tkinter import ttk
 from tkinter import messagebox
-
+from collections import deque
 from matplotlib.backends.backend_tkagg import NavigationToolbar2Tk
 import mpl_toolkits as mpl
 
@@ -113,20 +113,34 @@ class MainWindow(tk.Tk):
     def make_suggestion(self):
         self.update_graph()
 
-    # LINEAR SEARCH
-    def search_movie(self, movie_name):
-        movie = None
-        for item in self.data:
-            if item['title'] == movie_name:
-                movie = item
-                break
+   # BFS  Algorithm
+    def search_movie_bfs(self, movie_name):
+        # 1. Initialization of the queue and the set of visited nodes
+        queue = deque(self.data)
+        visited = set()
+
+        # 2. Main loop
+        while queue:
+            # 3. Visit condition
+            item = queue.popleft()
+            if item['id'] in visited:
+                continue
+
+            # 4. Mark as visited
+            visited.add(item['id'])
+
+            # 5. Search condition
+            if item['title'] == movie_name or (isinstance(movie_name, int) and item['id'] == movie_name):
+                # 6. Return if the movie is found
+                return item
+
+            # 7. Expansion of neighboring nodes
             try:
-                if item['id'] == int(movie_name):
-                    movie = item
-                    break
+                queue.extend(self.data[int(movie_name):])
             except ValueError:
                 pass
-        return movie
+        # 8. Return if the movie is not found
+        return None
 
     def update_table(self, movie_list):
         # Clear the table
