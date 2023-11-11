@@ -163,7 +163,53 @@ class MainWindow(tk.Tk):
 
         return sublist
 
-   
+    def update_graph(self):
+        movie_name = self.entry_movie.get()
+        movie = self.search_movie(movie_name)
+
+        # GETTING DATA:
+        # Convert the DataFrame to an N x N matrix
+        n = len(self.matrix)  # Number n (adjust as needed)
+        node_labels = list(range(n))  # Fill the array with numbers from 0 to n-1
+
+        subgraph = self.matrix
+        sub_list = node_labels
+        starting_node = None
+        if movie is not None:
+            starting_node = movie['id']
+            reachable_nodes = get_reachable_nodes(self.matrix, node_labels, starting_node)
+
+            subgraph, sub_list = get_subgraph(self.matrix, reachable_nodes, starting_node)
+            subgraph = np.array(subgraph)
+
+        sub_list = self.apply_constraint(self.combo_directors.get(), self.combo_genres.get(), sub_list)
+        subgraph, sub_list = get_subgraph(self.matrix, sub_list, starting_node)
+        if len(sub_list) == 0:
+            messagebox.showinfo("ERROR", "No movies meet the filtering criteria...")
+            return
+
+        subgraph = np.array(subgraph)
+        print(subgraph, sub_list)
+
+        # Create a graph from the adjacency matrix
+        G = nx.from_numpy_array(subgraph)
+
+        # Create the graph using networkx and matplotlib
+        fig, ax = plt.subplots(figsize=(4, 4))
+        nx.draw(G, with_labels=True, ax=ax, labels=dict(zip(G.nodes, sub_list)))
+        fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
+        # Create the FigureCanvasTkAgg widget with a fixed size
+        canvas = FigureCanvasTkAgg(fig, master=self)
+        canvas.get_tk_widget().configure(width=500, height=450)
+        canvas.draw()
+        canvas.get_tk_widget().place(x=20, y=100)
+
+        # Create the matplotlib toolbar
+        toolbar = NavigationToolbar2Tk(canvas, self)
+        toolbar.update()
+        toolbar.place(x=20, y=510)
+
+        self.update_table(sub_list)
 
 if __name__ == "__main__":
     # This block will only be executed if the script is run directly, not if it is imported as a module
