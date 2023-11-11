@@ -39,7 +39,7 @@ def get_subgraph(adjacency_matrix, node_list, node):
     return subgraph_matrix, subgraph_nodes
 
 class MainWindow(tk.Tk):
-        def __init__(self):
+    def __init__(self):
         super().__init__()
         self.configure(bg='black')
         self.tk_setPalette(background='#2E2E2E', foreground='white')
