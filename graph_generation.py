@@ -93,8 +93,18 @@ for i in range(len(data2)):
 
 # Print the adjacency matrix to a CSV file
 df = pd.DataFrame(adjacency_matrix)
-df.to_csv('matrizAdy.csv', index=False, header=False)
+df.to_csv('matrizAdy.csv', index=False, header=False) 
 
-# Draw the graph using NetworkX and Matplotlib
-nx.draw(G, with_labels=False, node_size=5, node_color='black')
+#Dibujar el grafo utilizando NetworkX y Matplotlib
+pos = nx.spring_layout(G, seed=42)  # Puedes probar otros layouts como 'circular', 'kamada_kawai', etc.
+labels = {node: str(node) for node in G.nodes}  # Etiquetas de nodos
+
+plt.figure(figsize=(12, 12))
+nx.draw(G, pos, with_labels=False, node_size=5, node_color='black', font_size=8, font_color='white', font_weight='bold', edge_color='gray', alpha=0.5)
+
+#Agregar etiquetas con IDs de películas a todos los nodos
+for node, (x, y) in pos.items():
+    plt.text(x, y, str(node), fontsize=6, ha='center', va='center', color='blue', bbox=dict(facecolor='white', alpha=0.5, edgecolor='white', boxstyle='round,pad=0.3'))
+
+plt.title('Grafo de Recomendaciones de Películas con IDs', fontsize=16)
 plt.show()
