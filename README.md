@@ -38,9 +38,11 @@ Luis Martín Canaval Sánchez
 
 ### 6. [Diseño de la aplicación](#_heading=h.u20dhwuq2)
 
-### 7. [Conclusiones](#_heading=h.r3agy7j393jx)
+### 7. [Diseño de la aplicación](#_heading=h.u20dhwuq2)
 
-### 8. [Referencias Bibliográficas](#_heading=h.kavcqy7ojzs)
+### 8. [Validacion de resultados y pruebas](#_heading=h.r3agy7j393jx)
+
+### 9. [Referencias Bibliográficas](#_heading=h.kavcqy7ojzs)
 
 
 # <a name="_heading=h.i8pqd6cqtj61"></a>**1. Enunciado del Proyecto**
@@ -226,9 +228,63 @@ Para la búsqueda de la película ingresada, se eligió implementar el algoritmo
 
 | ![BFS](https://i.postimg.cc/9QNrJ4cD/image.png) |
 |---------------------------------------------------|
+# <a name="_heading=h.r3agy7j393jx"></a>**7. Validación de resultados y pruebas:**
+
+Se emplearán dos conjuntos de datos como entrada que son una lista de películas y el propósito es obtener como resultado una matriz de adyacencia.
+
+- Inicio de sesión:
+
+Entrada: nombre de usuario y contraseña.
+
+Salida: Inicio de sesión exitosa.
+
+- Registro: 
+
+Entrada: dni, nombre completo, fecha de cumpleaños, teléfono, correo, nombre de usuario y contraseña.
+
+Salida: Registro de datos en el archivo user.csv
+
+- Interfaz:
+
+Entrada: Nombre de película, género y autor.
+
+Salida: Generación de la lista de películas y del grafo.
+
+- Interpretación de resultados: Se examinará la coherencia entre los pesos asignados manualmente y los generados por el algoritmo. La confirmación exitosa de la concordancia brindará confianza en la precisión del algoritmo de generación de la matriz de adyacencia. Cualquier discrepancia exigirá una revisión minuciosa del algoritmo para garantizar su correcto funcionamiento.
+- Pruebas:
+
+Se trata de la generación de matriz de adyacencia: Se llevará a cabo una prueba seleccionando aleatoriamente "X" pares de películas. Los pesos se asignarán manualmente siguiendo los criterios previamente establecidos. La matriz se construirá en memoria, y se contrastarán los pesos generados manualmente con los producidos por el algoritmo. Se incorporará un script en el algoritmo de generación de la matriz para facilitar la verificación de la coherencia entre los pesos asignados manualmente y los generados por el algoritmo.
+
+- Prueba de registro:
+
+![](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.001.png)
+
+![](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.002.png)
+
+- Prueba de inicio de sesión
+
+![Captura de pantalla de un celular
+
+Descripción generada automáticamente](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.003.png)
+
+![Interfaz de usuario gráfica, Texto, Aplicación, Chat o mensaje de texto
+
+Descripción generada automáticamente](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.004.png) 
+
+- Prueba de recomendaciones
+
+![](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.005.png) ![Captura de pantalla de computadora
+
+Descripción generada automáticamente](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.006.png)
+
+![Una captura de pantalla de una computadora
+
+Descripción generada automáticamente](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.007.png)
 
 
-# <a name="_heading=h.r3agy7j393jx"></a>**7. Conclusiones:**
+
+
+# <a name="_heading=h.r3agy7j393jx"></a>**8. Conclusiones:**
 - Utilizaremos la biblioteca Tkinter para desarrollar una interfaz de usuario interactiva que permite a los usuarios interactuar de manera fácil y amigable con nuestro sistema de recomendaciones de películas.
 
 - Para poder representar los datos, utilizaremos a los grafos como medio de conexión entre sus nodos y aristas.
@@ -237,7 +293,7 @@ Para la búsqueda de la película ingresada, se eligió implementar el algoritmo
 
 - El procesamiento eficiente de información y la gestión de datos tabulares, estas capacidades permiten ofrecer recomendaciones precisas y personalizadas a los usuarios, mejorando así la experiencia en nuestra plataforma de recomendaciones de películas.
 
-# <a name="_heading=h.kavcqy7ojzs"></a>**8.    Referencias bibliográficas:**
+# <a name="_heading=h.kavcqy7ojzs"></a>**9.    Referencias bibliográficas:**
 
 *Cañibano, J. (2022).* *Creación de grafos de conocimiento a partir de código de software científico en distintos lenguajes de programación. Recuperado de:[ ](https://oa.upm.es/72746/)[https://oa.upm.es/72746/*](https://oa.upm.es/72746/)*
 
