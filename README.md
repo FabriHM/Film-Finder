@@ -257,9 +257,9 @@ Se trata de la generación de matriz de adyacencia: Se llevará a cabo una prueb
 
 - Prueba de registro:
 
-![](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.001.png)
 
-![](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.002.png)
+
+[![imagen-2.png](https://i.postimg.cc/ZnLMkPyT/imagen-2.png)](https://postimg.cc/30dBmvB6)]
 
 - Prueba de inicio de sesión
 
@@ -280,8 +280,6 @@ Descripción generada automáticamente](Aspose.Words.c739f8ed-3eef-484f-b344-047
 ![Una captura de pantalla de una computadora
 
 Descripción generada automáticamente](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.007.png)
-
-
 
 
 # <a name="_heading=h.r3agy7j393jx"></a>**8. Conclusiones:**
