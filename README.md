@@ -257,29 +257,19 @@ Se trata de la generación de matriz de adyacencia: Se llevará a cabo una prueb
 
 - Prueba de registro:
 
-
-
+[![imagen-1.png](https://i.postimg.cc/mDCnjWL1/imagen-1.png)](https://postimg.cc/phVkV7nP)]
 [![imagen-2.png](https://i.postimg.cc/ZnLMkPyT/imagen-2.png)](https://postimg.cc/30dBmvB6)]
 
 - Prueba de inicio de sesión
 
-![Captura de pantalla de un celular
-
-Descripción generada automáticamente](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.003.png)
-
-![Interfaz de usuario gráfica, Texto, Aplicación, Chat o mensaje de texto
-
-Descripción generada automáticamente](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.004.png) 
+[![imagen-3.png](https://i.postimg.cc/rwZ7F9Zs/imagen-3.png)](https://postimg.cc/pm8ssKHM)]
+[![imagen-4.png](https://i.postimg.cc/bvGWG24T/imagen-4.png)](https://postimg.cc/Z9SV20bB)]
 
 - Prueba de recomendaciones
 
-![](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.005.png) ![Captura de pantalla de computadora
-
-Descripción generada automáticamente](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.006.png)
-
-![Una captura de pantalla de una computadora
-
-Descripción generada automáticamente](Aspose.Words.c739f8ed-3eef-484f-b344-0477ab5cb78a.007.png)
+[![imagen-5.png](https://i.postimg.cc/tJbMmvJS/imagen-5.png)](https://postimg.cc/62Hc80dn)]
+[![imagen-6.png](https://i.postimg.cc/25PJnSDf/imagen-6.png)](https://postimg.cc/sB4wryxn)]
+[![imagen-7.png](https://i.postimg.cc/L88rpWTG/imagen-7.png)](https://postimg.cc/ZCXfPVXL)
 
 
 # <a name="_heading=h.r3agy7j393jx"></a>**8. Conclusiones:**
