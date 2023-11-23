@@ -48,10 +48,8 @@ class MainWindow(tk.Tk):
         self.title("Movie Suggestions")
         self.geometry("1280x600")
 
-         # Crear un tema de estilo
         style = ttk.Style(self)
         
-        # Configurar el tema para el Combobox
         style.theme_create("custom_theme", parent="alt", settings={
             "TCombobox": {
                 "configure": {"selectbackground": 'white', "fieldbackground": '#2E2E2E', "foreground": 'white'},
@@ -213,7 +211,7 @@ class MainWindow(tk.Tk):
         self.table_users.delete(*self.table_users.get_children())
 
         if not persons_seen_movie:
-            self.table_users.insert("", "end", values=("No users found.",))
+            self.table_users.insert("", "end", values=("No users found.",)) 
         
         for person in persons_seen_movie:
             self.table_users.insert("", "end", values=(person,))
