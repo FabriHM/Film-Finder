@@ -210,10 +210,11 @@ class MainWindow(tk.Tk):
 
         persons_seen_movie = df2[df2['MovieFavorite'].str.contains(movie_name, case=False)]['Name'].tolist()
         
-        # Limpia la tabla antes de agregar nuevos resultados
         self.table_users.delete(*self.table_users.get_children())
+
+        if not persons_seen_movie:
+            self.table_users.insert("", "end", values=("No users found.",))
         
-        # Agrega los nombres de los usuarios a la tabla
         for person in persons_seen_movie:
             self.table_users.insert("", "end", values=(person,))
         
@@ -243,15 +244,14 @@ class MainWindow(tk.Tk):
 
         # Create a graph from the adjacency matrix
         G = nx.from_numpy_array(subgraph)
-
         node_colors = cm.rainbow(np.linspace(0, 1, len(sub_list)))
-
         color_map = {node: color for node, color in zip(sub_list, node_colors)}
 
         # Create the graph using networkx and matplotlib
         fig, ax = plt.subplots(figsize=(4, 4))
         nx.draw(G, with_labels=True, ax=ax, labels=dict(zip(G.nodes, sub_list)), node_color=node_colors)
         fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
+        
         # Create the FigureCanvasTkAgg widget with a fixed size
         canvas = FigureCanvasTkAgg(fig, master=self)
         canvas.get_tk_widget().configure(width=400, height=450)
