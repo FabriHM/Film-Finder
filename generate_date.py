@@ -3,10 +3,7 @@ import csv
 
 fake = Faker()
 
-# Configurar el generador de números aleatorios para obtener datos consistentes
 Faker.seed(0)
-
-# Generar 100 personas y escribir los datos en un archivo CSV
 with open("users.csv", mode="w", newline="") as file:
     writer = csv.writer(file)
 
