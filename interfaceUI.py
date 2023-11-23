@@ -9,6 +9,7 @@ from tkinter import messagebox
 from collections import deque
 from matplotlib.backends.backend_tkagg import NavigationToolbar2Tk
 import mpl_toolkits as mpl
+import matplotlib.cm as cm
 
 def get_reachable_nodes(adjacency_matrix, labels, node):
     n = len(adjacency_matrix)
@@ -45,7 +46,7 @@ class MainWindow(tk.Tk):
         self.tk_setPalette(background='#2E2E2E', foreground='white')
         label_font = ('Montserrat', 10)
         self.title("Movie Suggestions")
-        self.geometry("1200x600")
+        self.geometry("1280x600")
 
          # Crear un tema de estilo
         style = ttk.Style(self)
@@ -88,16 +89,24 @@ class MainWindow(tk.Tk):
         self.table.heading("Genre", text="Genre")
         self.table.heading("Duration(mins)", text="Duration(mins)")
 
+        # Table of users
+        self.table_users = ttk.Treeview(self, columns=("Name"), show="headings", style="mystyle.Treeview")
+        self.table_users.column("Name", width=150)
+        self.table_users.heading("Name", text="Name")
+
         # Create a scrollbar and associate it with the table
         scrollbar = ttk.Scrollbar(self, orient="vertical", command=self.table.yview)
         self.table.configure(yscroll=scrollbar.set)
 
         # Position the table and scrollbar in the window
-        self.table.place(x=550, y=100, width=600, height=450)
-        scrollbar.place(x=1150, y=100, height=450)
+        self.table.place(x=20, y=100, width=600, height=450)
+        scrollbar.place(x=620, y=100, height=450)
+        self.table_users.place(x=1050, y=100, width=200, height=450)
 
         # Read the CSV file and store it in a DataFrame
         df = pd.read_csv('dataset.csv')
+        # Read the CSV file and store it in a DataFrame
+        df1 = pd.read_csv('users.csv', usecols=['MovieFavorite'])
 
         # Convert the DataFrame to an array of objects
         self.data = df.to_dict('records')
@@ -195,6 +204,19 @@ class MainWindow(tk.Tk):
         movie_name = self.entry_movie.get()
         movie = self.search_movie_bfs(movie_name)
 
+        df2 = pd.read_csv('users.csv', usecols=['Name', 'MovieFavorite'])
+        
+        df2['MovieFavorite'] = df2['MovieFavorite'].fillna('')
+
+        persons_seen_movie = df2[df2['MovieFavorite'].str.contains(movie_name, case=False)]['Name'].tolist()
+        
+        # Limpia la tabla antes de agregar nuevos resultados
+        self.table_users.delete(*self.table_users.get_children())
+        
+        # Agrega los nombres de los usuarios a la tabla
+        for person in persons_seen_movie:
+            self.table_users.insert("", "end", values=(person,))
+        
         # GETTING DATA:
         # Convert the DataFrame to an N x N matrix
         n = len(self.matrix)  # Number n (adjust as needed)
@@ -222,20 +244,24 @@ class MainWindow(tk.Tk):
         # Create a graph from the adjacency matrix
         G = nx.from_numpy_array(subgraph)
 
+        node_colors = cm.rainbow(np.linspace(0, 1, len(sub_list)))
+
+        color_map = {node: color for node, color in zip(sub_list, node_colors)}
+
         # Create the graph using networkx and matplotlib
         fig, ax = plt.subplots(figsize=(4, 4))
-        nx.draw(G, with_labels=True, ax=ax, labels=dict(zip(G.nodes, sub_list)))
+        nx.draw(G, with_labels=True, ax=ax, labels=dict(zip(G.nodes, sub_list)), node_color=node_colors)
         fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
         # Create the FigureCanvasTkAgg widget with a fixed size
         canvas = FigureCanvasTkAgg(fig, master=self)
-        canvas.get_tk_widget().configure(width=500, height=450)
+        canvas.get_tk_widget().configure(width=400, height=450)
         canvas.draw()
-        canvas.get_tk_widget().place(x=20, y=100)
+        canvas.get_tk_widget().place(x=645, y=100)
 
         # Create the matplotlib toolbar
         toolbar = NavigationToolbar2Tk(canvas, self)
         toolbar.update()
-        toolbar.place(x=20, y=510)
+        toolbar.place(x=645, y=510)
 
         self.update_table(sub_list)
 
