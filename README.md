@@ -1,5 +1,5 @@
 # **CC184-COMPLEJIDAD ALGORITMICA**
-## **TP - Universidad Peruana de Ciencias Aplicadas**
+## **TF - Universidad Peruana de Ciencias Aplicadas**
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="UPC logo">
 </p>
